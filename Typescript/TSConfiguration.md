@@ -1,6 +1,8 @@
 The presence of **tsconfig.json** in a directory means the directory is the root of a Typescript project
 
-# Base Configuration
+# Top Level
+
+## Base Configuration
 
 `"extends": "@tsconfig/recommended/tsconfig.json"`
 
@@ -24,18 +26,20 @@ What does it contain?
 * The configuration from base are loaded first, then overriden by those in the inheriting config
 * The only top-level property that is excluded from inheritance is *references*
 
-# Files
+## Files
 
 Specifies an allowlist of files to include
 
 ```json
-
+{
+	"files": ["core.ts", "index.ts"]
+}
 ```
 
 - An error occurs if any of the files can't be found
 - Useful when you only have a small number of files
 - Otherwise, use [[TSConfiguration#Include and Exclude]]
-
+- Default is `"files": false`
 
 ## Include and Exclude
 
@@ -100,8 +104,52 @@ Side note: It is not a mechanism that prevents a file from being included in the
 >What if no extension?
 
 .ts, .tsx, .d.ts
-.js, .jsx when `"allowJs": true`
+.js, .jsx when `"allowJs": true`, see here
 
 
+# Compiler Options
 
+## Type Checking
+
+### Unreachable Code
+
+```ts
+const fn = (n: number) {
+	if (n > 5)  return true;
+	else return false;
+	return true; // Unreachable
+}
+```
+
+>allowUnreachableCode
+
+- `undefined` => Warnings
+- `true` => Ignored
+- `false` => Compilation error
+
+## Unused Labels
+
+```ts
+function verifyAge(age: number) {
+	// Forgot 'return' statement
+
+	if (age > 18) {
+		verified: true;
+	}
+}
+```
+
+>allowUnusedLabels
+
+- `undefined` => Warnings
+- `true` => Ignored
+- `false` => Compilation error
+
+# Always Strict
+
+Ensure that [[ECMAScript]] strict mode is being used. 
+
+>alwaysStrict
+
+- `true` or `false`
 

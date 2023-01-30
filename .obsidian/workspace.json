@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a05e1e8d08bbb753",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/ECMAScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Typescript/TSConfiguration.md",
+                "file": "Javascript/ECMAScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Typescript/TSConfiguration.md",
+                "file": "Javascript/ECMAScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Typescript/TSConfiguration.md"
+                "file": "Javascript/ECMAScript.md"
               }
             }
           }
@@ -147,8 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "52d9207e861b85b7",
+  "active": "a05e1e8d08bbb753",
   "lastOpenFiles": [
+    "Typescript/TSConfiguration.md",
+    "Javascript/ECMAScript.md",
     "Typescript.md"
   ]
 }
