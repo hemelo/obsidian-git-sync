@@ -19,7 +19,69 @@ What does it contain?
   "display": "Recommended"
 }
 ```
-- Its val
+
+* Its value must be Node.js style resolution
+* The configuration from base are loaded first, then overriden by those in the inheriting config
+* The only top-level property that is excluded from inheritance is *references*
+
+# Include and Exclude
+
+Specifies an array of filenames or patterns to include or exclude in  the program. These filenames are resolved relative to the directory containing the configuration file.
+
+Default:
+
+```json
+{
+	"include": [],
+	"exclude": ["node_modules", "bower_compor"]
+}
+```
+
+---
+
+```json
+{
+	"include": ["src/**/*", "tests/**/*"],
+	"exclude": ["tests/utils.ts"]
+}
+```
+
+Results on:
+
+```c
+. ├── scripts ⨯ 
+│ ├── lint.ts ⨯ 
+│ ├── update_deps.ts ⨯ 
+│ └── utils.ts ⨯ 
+├── src ✓ 
+│ ├── client ✓ 
+│ │ ├── index.ts ✓ 
+│ │ └── utils.ts ✓ 
+│ ├── server ✓ 
+│ │ └── index.ts ✓ 
+├── tests ✓ 
+│ ├── app.test.ts ✓ 
+│ ├── utils.ts ⨯ 
+│ └── tests.d.ts ✓ 
+├── package.json 
+├── tsconfig.json 
+└── yarn.lock
+```
+
+Exclude only changes which files are included as a result of the include config.
+
+Side note: It is not a mechanism that prevents a file from being included in the codebase.
+
+>Regex
+- `*` matches zero or more characters (except path separator)
+- `?` matches any other character (except path separator)
+- `**` matches any directory nested to any level
+
+>What if no extension?
+
+.ts, .tsx, .d.ts
+.js, .jsx when `"allowJs": true`
+
 
 
 
