@@ -24,7 +24,20 @@ What does it contain?
 * The configuration from base are loaded first, then overriden by those in the inheriting config
 * The only top-level property that is excluded from inheritance is *references*
 
-# Include and Exclude
+# Files
+
+Specifies an allowlist of files to include
+
+```json
+
+```
+
+- An error occurs if any of the files can't be found
+- Useful when you only have a small number of files
+- Otherwise, use [[TSConfiguration#Include and Exclude]]
+
+
+## Include and Exclude
 
 Specifies an array of filenames or patterns to include or exclude in  the program. These filenames are resolved relative to the directory containing the configuration file.
 
@@ -32,11 +45,18 @@ Default:
 
 ```json
 {
-	"include": [],
+	"include": ["**"],
 	"exclude": ["node_modules", "bower_compor"]
 }
 ```
 
+```json
+{
+	"files": []
+	"include": [], // If files is different of false
+	"exclude": ["node_modules", "bower_compor"]
+}
+```
 ---
 
 ```json
