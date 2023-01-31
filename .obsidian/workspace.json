@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/ECMAScript.md",
+                "file": "Typescript/TSConfiguration.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/ECMAScript.md",
+                "file": "Typescript/TSConfiguration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,10 +128,10 @@
   },
   "active": "52d9207e861b85b7",
   "lastOpenFiles": [
+    "Javascript/Functions/Bind, Call and Apply.md",
+    "Javascript/Functions/Functions.md",
     "Typescript/TSConfiguration.md",
     "Javascript/ECMAScript.md",
-    "Javascript/Functions/Functions.md",
-    "Javascript/Functions/Bind, Call and Apply.md",
     "Typescript.md"
   ]
 }
