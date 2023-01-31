@@ -3,5 +3,7 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-discordrpc",
   "highlightr-plugin",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "obsidian-dictionary-plugin",
+  "nldates-obsidian"
 ]

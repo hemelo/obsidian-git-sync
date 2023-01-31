@@ -3,6 +3,7 @@
 Existe. As arrow functions são normalmente confundidas com as functions do ES5
 
 * Arrow functions -> Herdam o contexto do local onde houve a declaração
+
 * Functions -> Herdam o contexto do objeto que está vinculado no momento da chamada. Se não tiver nenhum objeto, será assumido o objeto global automaticamente (ex.: window)
 
 ```javascript
@@ -36,7 +37,7 @@ new Arrow(); // Arrow ow is not a constructor
 
 ###### Argumentos
 
-* Arrow functiosn não possuem `arguments`
+* Arrow functions não possuem `arguments`
 ```javascript
 var noop = () => {
   return arguments;
