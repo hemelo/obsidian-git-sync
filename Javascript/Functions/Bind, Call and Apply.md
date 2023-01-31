@@ -14,5 +14,14 @@ var add = function(a, b) {
 
 
 ```js
+add.call(obj, 3, 1);
+```
 
+```js
+add.apply(obj, [3, 1]);
+```
+
+```js
+var bound = add.bind(obj);
+bound(3, 1);
 ```

@@ -266,17 +266,6 @@ console.assert(pair[0] === 42);
 console.assert(pair[1] === 17);
 ```
 
-#### *Calee* não é mais suportado
-
-```js
-"use strict";
-var f = function() { return arguments.callee; };
-f(); // lança TypeError
-```
-
-Em código normal `callee` se refere à função envolvente. 
-
-<mark style="background: #FFF3A3A6;">NOTA:</mark> Callee ainda existe em modo strict, é não-deletável, mas também não pode ser chamada
 
 ### <mark style="background: #BBFABBA6;">Tornando o Javascript "Seguro"</mark>
 
@@ -291,9 +280,58 @@ A vantagem do strict mode é que reduz substancialmente a necessidade de realiza
 
 O valor passado como `this` para uma função em strict mode não é forçado a ser um objeto. Já para uma função normal, `this` é sempre um objeto: seja um objeto literal, o valor encapsulado (Boolean, Number, String), o objeto global, `undefined` ou `null`
 
-Resumo: <mark style="background: #FFB8EBA6;">No modo strict, <code>this</code> não é encapsulado em um objeto, e se não for especificado será <code>undefined</code></mark>. Utilize `bind`, `call` ou `apply`
+Resumo: <mark style="background: #FFB8EBA6;">No modo strict, <code>this</code> não é encapsulado em um objeto, e se não for especificado será <code>undefined</code></mark>. Utilize [[Bind, Call and Apply]]
 
+```js
+"use strict"
 
+function fun() { return this; }
+console.assert(fun() === undefined);
+console.assert(fun.call(2) === 2);
+console.assert(fun.apply(null) === null);
+console.assert(fun.call(undefined) === undefined);
+console.assert(fun.bind(true)() === true);
+
+```
+
+<mark style="background: #FFF3A3A6;">NOTA:</mark> Não é mais possível referenciar `window` através de this dentro de uma função strict mode
+
+#### Pilha de execução
+
+Não é mais possível acessar a pilha de execução pelo código
+
+- `fun.caller` => acessa a função que chamou recentemente
+- `fun.arguments` => argumentos recentes
+- `arguments.caller` => acessa a função que chamou recentemente
+
+```js
+function restrita()
+{
+  "use strict";
+  restrita.caller;    // lança TypeError
+  restrita.arguments; // lança TypeError
+}
+
+function invocadorPrivilegiado()
+{
+  return restrita();
+}
+
+invocadorPrivilegiado();
+```
+
+```js
+"use strict";
+function fun(a, b)
+{
+  "use strict";
+  var v = 12;
+  return arguments.caller; // lança TypeError
+}
+fun(1, 2); // não expõe v (or a or b)
+```
+
+Se `fun` estiver em strict mode, todas propriedades citadas são não-deletáveis e lançam exception.
 
 ---
 

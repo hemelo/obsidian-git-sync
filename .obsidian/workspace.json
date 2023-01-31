@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typescript/TSConfiguration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a05e1e8d08bbb753",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Javascript/Functions/Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e82dedb0efc102f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Javascript/Functions/Bind, Call and Apply.md",
+                "file": "Javascript/ECMAScript.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7af58feb0f5fb8a7",
@@ -111,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Functions/Bind, Call and Apply.md",
+                "file": "Javascript/ECMAScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,11 +126,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2e82dedb0efc102f",
+  "active": "52d9207e861b85b7",
   "lastOpenFiles": [
-    "Javascript/Functions/Functions.md",
-    "Javascript/ECMAScript.md",
     "Typescript/TSConfiguration.md",
+    "Javascript/ECMAScript.md",
+    "Javascript/Functions/Functions.md",
+    "Javascript/Functions/Bind, Call and Apply.md",
     "Typescript.md"
   ]
 }

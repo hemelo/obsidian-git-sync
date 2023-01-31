@@ -147,7 +147,7 @@ function verifyAge(age: number) {
 
 # Always Strict
 
-Ensure that [[ECMAScript]] strict mode is being used. 
+Ensure that [[ECMAScript#Strict Mode]] is being used. 
 
 >alwaysStrict
 
