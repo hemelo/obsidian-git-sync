@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7af58feb0f5fb8a7",
@@ -104,6 +105,28 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "deb654c8ddd99849",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Typescript/TSConfiguration.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f9943be8d79dbbf8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Typescript/TSConfiguration.md"
               }
             }
           }

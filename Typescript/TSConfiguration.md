@@ -145,11 +145,69 @@ function verifyAge(age: number) {
 - `true` => Ignored
 - `false` => Compilation error
 
-# Always Strict
+### Always Strict
 
 Ensure that [[ECMAScript#Strict Mode]] is being used. 
 
 >alwaysStrict
 
 - `true` or `false`
+
+### Exact Optional Property Types
+
+Makes typescript truly enforce the definition provided as an optional provided.
+
+```ts
+interface UserConfig {
+	colorTheme?: "dark" | "light";
+}
+```
+
+>exactOptionalPropertyTypes
+
+- `true`
+
+```ts
+implemented.colorTheme = undefined; // Error
+```
+
+Setting this var as undefined is not the same of not being defined
+
+- `false`
+
+### No Fallthrough Cases In Switch
+
+```ts
+switch (a) {  
+	case 0:  
+		console.log("even"); // Fallthrough
+	case 1:  
+		console.log("odd");  
+		break;  
+}   
+```
+
+>noFallthroughCasesInSwitch
+
+Ensures that you won't accidentaly create a bug without `break` or `return`
+
+- `true` or `false`
+
+### No implicity any
+
+Typescript will fall back to `any` whenever it can't infer the type
+
+```ts
+function fn(s) {
+	console.log(s.length)
+}
+```
+
+>noImplicitAny
+
+Automatically enabled when Strict 
+
+- `true` or `false`
+
+### No implicity override
 
