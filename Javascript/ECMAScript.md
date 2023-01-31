@@ -287,11 +287,12 @@ Em código normal `callee` se refere à função envolvente.
 
 A vantagem do strict mode é que reduz substancialmente a necessidade de realizar verificações em tempo de execução
 
-#### This
+#### `This` como parâmetro
 
 O valor passado como `this` para uma função em strict mode não é forçado a ser um objeto. Já para uma função normal, `this` é sempre um objeto: seja um objeto literal, o valor encapsulado (Boolean, Number, String), o objeto global, `undefined` ou `null`
 
-Resumo: No modo strict, <code>this</code> não é encapsulado em um objeto, e se não for especificado será `undefined`
+Resumo: <mark style="background: #FFB8EBA6;">No modo strict, <code>this</code> não é encapsulado em um objeto, e se não for especificado será <code>undefined</code></mark>. Utilize `bind`, `call` ou `apply`
+
 
 
 ---
