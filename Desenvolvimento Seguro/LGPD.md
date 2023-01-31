@@ -1,0 +1,4 @@
+- Consentimento
+- Automatização com autorização
+- ANPD - Autoridade Nacional de Proteção de Dados Pessoais
+- 
