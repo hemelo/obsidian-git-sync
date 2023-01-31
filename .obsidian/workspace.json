@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1afa91365a9dec7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Typescript/TSConfiguration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,7 +162,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "52d9207e861b85b7",
+  "active": "1afa91365a9dec7d",
   "lastOpenFiles": [
     "Javascript/Functions/Bind, Call and Apply.md",
     "Javascript/Functions/Functions.md",

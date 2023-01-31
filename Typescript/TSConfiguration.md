@@ -147,9 +147,12 @@ function verifyAge(age: number) {
 
 ### Always Strict
 
-Ensure that [[ECMAScript#Strict Mode]] is being used. 
+Ensures that [[ECMAScript#Strict Mode]] is being used. 
+It forces "use strict" on every single file that is included on [[TSConfiguration#Files]] or [[TSConfiguration#Include and Exclude]]
 
 >alwaysStrict
+
+Automatically enabled when `"strict": true`
 
 - `true` or `false`
 
@@ -205,7 +208,7 @@ function fn(s) {
 
 >noImplicitAny
 
-Automatically enabled when Strict 
+Automatically enabled when `"strict": true`
 
 - `true` or `false`
 
@@ -267,7 +270,10 @@ class Rectangle {
 }
 
 ```
+
 >noImplicitThis
+
+Automatically enabled when `"strict": true`
 
 - `true` or `false`
 
@@ -275,7 +281,7 @@ class Rectangle {
 
 >noPropertyAccessFromIndexSignature
 
-Ensures consistency between `obj.ke`y and `obj["key"]` syntax. Without this flag TS will allow to use the dot syntax to access fields which aren't defined..
+Ensures consistency between `obj.key` and `obj["key"]` syntax. Without this flag TS will allow to use the dot syntax to access fields which aren't defined..
 
 - `false`
 ```ts
@@ -297,3 +303,89 @@ settings.username; // Error, property 'username' comes from an index signature, 
 settings["username"]
 ```
 
+>noUncheckedIndexedAccess
+
+Typescript has a way to describe objects which have unknown keys but known values on an object, via index signatures
+
+- `false`
+```ts
+interface EnvironmentVars {
+	NAME: string;
+	OS: string;
+	
+	// Unknown properties are covered by this index signature.
+	[propName: string]: string;
+}
+
+declare const env: EnvironmentVars;
+
+// Declared as existing
+
+const sysName = env.NAME;
+const os = env.OS;
+
+// Not declared, but because of the index
+// signature, then it is considered a string
+const nodeEnv = env.NODE_ENV;
+```
+
+- `true`
+
+When true, the property will be considered as possible `undefined`
+
+```ts
+// It will be consider like this, but implicity
+[propName: string]: string | undefined;
+```
+
+### No unused locals
+
+Report error on unused local variables
+
+```ts
+const createKeyboard = (modelID: number) => {
+	const defaultModelID = 23; // Unused var
+	return { type: "keyboard", modelID };
+}
+```
+
+>noUnusedLocals
+
+- `true` or `false`
+
+### No unused parameters
+
+Report errors on unused parameters in functions
+
+```ts
+const createKeyboard = (modelID: number) => { // Unused param.
+	const defaultModelID = 23;
+	return { type: "keyboard", defaultModelID };
+}
+
+```
+
+>noUnusedParameters
+
+- `true` or `false`
+
+### Strict Bind Call Apply
+
+>strictBindCallApply
+
+- `true`
+
+
+
+
+### <mark style="background: #BBFABBA6;">Strict</mark>
+
+Enables a wide range of type checking behavior in strong guarantees of program correctness. 
+
+It enables the entire strict mode *family* options
+
+- [[TSConfiguration#Always Strict]] - `alwaysStrict`
+- [[TSConfiguration#No implicit `any`]] - `noImplicitAny`
+- [[TSConfiguration#No implicit `this`]] - `noImplicitThis`
+
+Future versions may break code when this is enabled. But is for the good, cause strict mode gets more security when it is updated.
