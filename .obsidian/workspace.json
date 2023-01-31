@@ -23,16 +23,11 @@
             "id": "1afa91365a9dec7d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Typescript/TSConfiguration.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7af58feb0f5fb8a7",
@@ -162,11 +156,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1afa91365a9dec7d",
+  "active": "52d9207e861b85b7",
   "lastOpenFiles": [
+    "Typescript/TSConfiguration.md",
     "Javascript/Functions/Bind, Call and Apply.md",
     "Javascript/Functions/Functions.md",
-    "Typescript/TSConfiguration.md",
     "Javascript/ECMAScript.md",
     "Typescript.md"
   ]

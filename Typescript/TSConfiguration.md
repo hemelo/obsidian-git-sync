@@ -385,7 +385,9 @@ const createKeyboard = (modelID: number) => { // Unused param.
 
 >strictPropertyInitialization
 
+### Use Unknown in Catch Variables
 
+>useUnknownInCatchVariables
 
 
 ### <mark style="background: #BBFABBA6;">Strict</mark>
@@ -399,3 +401,7 @@ It enables the entire strict mode *family* options
 - [[TSConfiguration#No implicit `this`]] - `noImplicitThis`
 
 Future versions may break code when this is enabled. But is for the good, cause strict mode gets more security when it is updated.
+
+---
+
+## Modules
