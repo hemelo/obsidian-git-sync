@@ -193,7 +193,7 @@ Ensures that you won't accidentaly create a bug without `break` or `return`
 
 - `true` or `false`
 
-### No implicity any
+### No implicit `any`
 
 Typescript will fall back to `any` whenever it can't infer the type
 
@@ -209,5 +209,91 @@ Automatically enabled when Strict
 
 - `true` or `false`
 
-### No implicity override
+### No implicit override
+
+When working with classes which use inheritance, it’s possible for a sub-class to get “out of sync” with the functions it overloads when they are renamed in the base class.
+
+```ts
+class Album {
+	setup() {}
+}
+
+class MLAlbum extends Album {
+	override setup() {}
+}
+
+class SharedAlbum extends Album {
+	setup() {} // Error, must have override modifier when noImplicitOverride is enabled
+}
+```
+
+>noImplicitOverride
+
+- `true` or `false`
+
+### No implicit Returns
+
+When enabled, it will check all code paths in a function to ensure they return a value
+
+```ts
+function getHeadphonesManufacturer(color: "blue" | "black") : string {
+	if (color === "blue") {
+		return "beats";
+	} else {
+		"bose"; // Lack of return statement
+	}
+}
+```
+The properly way to return nothing is setting `| undefined |` as one of the return possibilities.
+
+>noImplicitReturns
+
+- `true` or `false`
+
+### No implicit `this`
+
+Raises error on `this` expressions with an implied `any` type
+
+```ts
+class Rectangle {
+	
+	constructor(private width: number, private height: number) { }
+
+	getAreaFunction() {
+		return function() {
+			return this.width * this.height; // Error when noImplicitThis enabled
+		}
+	}
+}
+
+```
+>noImplicitThis
+
+- `true` or `false`
+
+### Index Signature
+
+>noPropertyAccessFromIndexSignature
+
+Ensures consistency between `obj.ke`y and `obj["key"]` syntax. Without this flag TS will allow to use the dot syntax to access fields which aren't defined..
+
+- `false`
+```ts
+interface GameSettings {
+	[key: string]: string;
+}
+
+const settings = getSettings();
+
+// Unknown access are allowed and they will be resolved to string
+settings.username; 
+```
+
+- `true`
+```ts
+
+settings.username; // Error, property 'username' comes from an index signature, so it must be accessed with ["username"]
+
+settings["username"]
+```
 
