@@ -373,7 +373,17 @@ const createKeyboard = (modelID: number) => { // Unused param.
 
 >strictBindCallApply
 
-- `true`
+### Strict Function Types
+
+>strictFunctionTypes
+
+### Strict Null Checks
+
+>strictNullChecks
+
+### Strict Property Initialization
+
+>strictPropertyInitialization
 
 
 
