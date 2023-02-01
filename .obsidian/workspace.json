@@ -30,20 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4fd325ba86aeb74b",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": true
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Desenvolvimento Seguro/PCI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Desenvolvimento Seguro/PCI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Desenvolvimento Seguro/PCI.md"
+              }
             }
           },
           {
@@ -175,7 +168,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4fd325ba86aeb74b",
+  "active": "1afa91365a9dec7d",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Desenvolvimento Seguro/PCI.md",
