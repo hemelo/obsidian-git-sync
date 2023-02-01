@@ -40,7 +40,24 @@ Its security requirements help provide assurance that payment software is design
 >Individuals and companies approved by PCI SSC to performance security assessments against PCI standards, including those standards associated with [[#^d952cc|SSF]]
 >
 
->[!DANGER]
+>[!SUCCESS] Big number libraries
+>
+>Library functions that allow for the large numbers often used in cryptography to be processed and stored correctly (with needed levels of precision) in languages that may otherwise default to a less precise format.
+
+>[!DANGER] Commom Weakness Enumeration
+>
+>Category system for software weaknesses and vulnerabilities
+
+- 
+- 
+
+
+
+
+
+
+
+
 
 
 

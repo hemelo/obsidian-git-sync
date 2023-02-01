@@ -38,7 +38,7 @@ Specifies an allowlist of files to include
 
 - An error occurs if any of the files can't be found
 - Useful when you only have a small number of files
-- Otherwise, use [[TSConfiguration#Include and Exclude]]
+- Otherwise, use [[Typescript Config#Include and Exclude]]
 - Default is `"files": false`
 
 ## Include and Exclude
@@ -148,7 +148,7 @@ function verifyAge(age: number) {
 ### Always Strict
 
 Ensures that [[ECMAScript#Strict Mode]] is being used. 
-It forces "use strict" on every single file that is included on [[TSConfiguration#Files]] or [[TSConfiguration#Include and Exclude]]
+It forces "use strict" on every single file that is included on [[Typescript Config#Files]] or [[Typescript Config#Include and Exclude]]
 
 >alwaysStrict
 
@@ -396,9 +396,9 @@ Enables a wide range of type checking behavior in strong guarantees of program c
 
 It enables the entire strict mode *family* options
 
-- [[TSConfiguration#Always Strict]] - `alwaysStrict`
-- [[TSConfiguration#No implicit `any`]] - `noImplicitAny`
-- [[TSConfiguration#No implicit `this`]] - `noImplicitThis`
+- [[Typescript Config#Always Strict]] - `alwaysStrict`
+- [[Typescript Config#No implicit `any`]] - `noImplicitAny`
+- [[Typescript Config#No implicit `this`]] - `noImplicitThis`
 
 Future versions may break code when this is enabled. But is for the good, cause strict mode gets more security when it is updated.
 

@@ -20,51 +20,19 @@
             }
           },
           {
-            "id": "c966d674020bf03b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Desenvolvimento Seguro/LGPD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f67a35f17407a223",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Desenvolvimento Seguro/LGPD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8064632e2d3e5bb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1afa91365a9dec7d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Desenvolvimento Seguro/PCI.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7af58feb0f5fb8a7",
@@ -130,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md",
+                "file": "Desenvolvimento Seguro/PCI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md",
+                "file": "Desenvolvimento Seguro/PCI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md"
+                "file": "Desenvolvimento Seguro/PCI.md"
               }
             }
           }
@@ -193,13 +162,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8064632e2d3e5bb8",
+  "active": "1afa91365a9dec7d",
   "lastOpenFiles": [
+    "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md",
+    "Typescript/Typescript Config.md",
     "Desenvolvimento Seguro/PCI.md",
     "Desenvolvimento Seguro/LGPD.md",
-    "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md",
     "Android Arc/og-image.png.md",
-    "Typescript/TSConfiguration.md",
     "Javascript/Functions/Bind, Call and Apply.md",
     "Javascript/Functions/Functions.md",
     "Javascript/ECMAScript.md",

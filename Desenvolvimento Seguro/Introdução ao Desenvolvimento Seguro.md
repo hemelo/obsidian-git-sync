@@ -23,5 +23,6 @@ A _Open Web Application Security Project_, popularmente conhecida como OWASP é 
 # Proteção de Dados
 
 Um outro ponto super importante atualmente é a questão da proteção de dados. É de suma importancia que haja o devido mapeamento dos dados e também a necessidade de prover segurança de acordo com a criticidade de cada um. Portanto, logo no inicio, os responsaveis deverão também levantar o transito dessas informaçoes sensiveis e garantir que eles possuem a quantidade de segurança necessária.
+Para isso existem leis como a GDPR e a [[LGPD]]
 
 
