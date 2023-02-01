@@ -37,6 +37,8 @@
 
 <mark style="background: #BBFABBA6;">Operações criptográficas como criptografia e assinatura digital são inúteis se as chaves privadas que usam não estiverem bem protegidas</mark>
 
+Motivação: Os invasores se tornaram sofitiscados em localizar chaves privadas armazendas ou em uso
+
 ## HSM _as a service_
 
 >[!HELP] Cloud HSM
@@ -44,6 +46,54 @@
 Produto com base em assinatura no qual os clientes podem usar um módulo de segurança de hardware na nuvem para gerar, acessar e proteger material de chave criptográfica de forma separada dos dados confidenciais.
 
 O serviço normalmente oferece o mesmo nível de proteção
+
+## Top 10 Casos
+
+![[top-10-hsm-use-cases-2021-infographic.webp]]
+
+## Que valor um HSM oferece?
+
+>TLS/SSL
+
+Chaves mestres de criptografia TLS/SSL seguras
+
+>Containers e Nuvem
+
+- Manter o controle das chaves e dados na nuvem
+- Aplicativos seguros em contêineres
+
+>PKI
+
+Proteger a raiz de PKI e as chavews de assinatura CA
+
+>Acesso privilegiado e gerenciamento de segredos
+
+Aborde ameaças internas e simplifique o acesso a segredos para DevOps
+
+>Criptografia e tokenização
+
+Aprimore a proteção da chave de criptografia para dados em trânsito e armazenamento
+
+>Gerenciamento de chaves
+
+Aplique a política de gerenciamento de chaves em várias nuvens e aplicativos
+
+>Assinatura digital e assinatura de código
+
+Proteja as chaves que garantem a integridade do software e permitem transações legalmente vinculativas
+
+>Identidade e autenticação
+
+Crie credenciais de identidade confiáveis
+
+>Pagamentos
+
+Proteja as chaves que criam e assinam credenciais de pagamento
+
+
+
+
+
 
 
 
