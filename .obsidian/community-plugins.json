@@ -1,11 +1,5 @@
 [
   "obsidian-git",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-discordrpc",
-  "highlightr-plugin",
-  "obsidian-kanban",
-  "obsidian-dictionary-plugin",
-  "nldates-obsidian",
-  "table-editor-obsidian",
-  "obsidian-icon-folder"
+  "table-editor-obsidian"
 ]

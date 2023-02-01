@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Desenvolvimento Seguro/PCI.md",
+                "file": "Desenvolvimento Seguro/CWE - Common Weakness Enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Desenvolvimento Seguro/PCI.md",
+                "file": "Desenvolvimento Seguro/CWE - Common Weakness Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Desenvolvimento Seguro/PCI.md",
+                "file": "Desenvolvimento Seguro/CWE - Common Weakness Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Desenvolvimento Seguro/PCI.md"
+                "file": "Desenvolvimento Seguro/CWE - Common Weakness Enumeration.md"
               }
             }
           },
@@ -157,6 +157,8 @@
   },
   "active": "52d9207e861b85b7",
   "lastOpenFiles": [
+    "2023-02-01.md",
+    "Desenvolvimento Seguro/PCI.md",
     "Javascript/Functions/Bind, Call and Apply.md",
     "Javascript/Functions/Functions.md",
     "Javascript/ECMAScript.md",
