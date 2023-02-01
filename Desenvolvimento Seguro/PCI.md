@@ -50,6 +50,8 @@ Its security requirements help provide assurance that payment software is design
 >
 >Category system for software weaknesses and vulnerabilities
 
+1. 
+
 >[!DANGER] 
 
 
