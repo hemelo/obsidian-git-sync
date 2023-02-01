@@ -6,6 +6,8 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🇧🇷",
+      "💳",
       "FabLinux",
       "FabAndroid"
     ],
@@ -19,5 +21,7 @@
     }
   },
   "Android Arc": "FabAndroid",
-  "Desenvolvimento Seguro": "FabLinux"
+  "Desenvolvimento Seguro": "FabLinux",
+  "Desenvolvimento Seguro/PCI.md": "💳",
+  "Desenvolvimento Seguro/LGPD.md": "🇧🇷"
 }
