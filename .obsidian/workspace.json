@@ -30,9 +30,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4fd325ba86aeb74b",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7af58feb0f5fb8a7",
@@ -99,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Desenvolvimento Seguro/PCI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +136,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Desenvolvimento Seguro/PCI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,18 +146,23 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Desenvolvimento Seguro/PCI.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "509f15f6ffe9566f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 560.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,11 +175,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1afa91365a9dec7d",
+  "active": "4fd325ba86aeb74b",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Desenvolvimento Seguro/PCI.md",
     "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md",
     "Typescript/Typescript Config.md",
-    "Desenvolvimento Seguro/PCI.md",
     "Desenvolvimento Seguro/LGPD.md",
     "Android Arc/og-image.png.md",
     "Javascript/Functions/Bind, Call and Apply.md",
