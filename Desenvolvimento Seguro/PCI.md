@@ -46,13 +46,44 @@ Its security requirements help provide assurance that payment software is design
 >
 >Library functions that allow for the large numbers often used in cryptography to be processed and stored correctly (with needed levels of precision) in languages that may otherwise default to a less precise format.
 
->[!DANGER] Commom Weakness Enumeration
+>[!DANGER] [[CWE - Common Weakness Enumeration|Common Weakness Enumeration]]
 >
 >Category system for software weaknesses and vulnerabilities
 
-1. 
+>[!WARNING] Confidential data
+>
+>Form of sensitive data that explicitly requires protection from unauthorized disclosure
 
->[!DANGER] 
+- CHD - Cardholder Data
+- SAD - Sensitive Authentication Data
+- Private cryptographic keys
+
+>[!HELP] Control objective
+>
+>The high-level security that must be met
+
+>[!DANGER] Critical assets
+>
+>Sensitive data, functions and resources. If those are exposed, misused, altered or disabled, could impair the software's ability to function properly or meet its security objectives
+
+>[!SUCCESS] Data element
+>
+>Term used to represent a single piece of information or column
+
+>[!IMPORTANT] EMVCo
+>
+>A global technical body owned by American Express, Discover, JCB, Mastercard, UnionPay, and Visa that facilitates the worldwide interoperability and acceptance of secure payment transactions by managing and envolving the EMV specifications and related testing processes
+
+
+
+
+
+
+
+
+>
+
+
 
 
 
