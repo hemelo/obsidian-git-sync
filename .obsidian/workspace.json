@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1afa91365a9dec7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Desenvolvimento Seguro/PCI.md",
+                "file": "Desenvolvimento Seguro/Criptografia/Criptografia baseada em Hardware x Software.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,40 +23,11 @@
             "id": "82c2ec51150bccbd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Desenvolvimento Seguro/PCI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "937aa1c818ec1b49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Desenvolvimento Seguro/Criptografia/Federal Information Processing Standard.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94fa70a86675a715",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Desenvolvimento Seguro/Criptografia/Criptografia baseada em Hardware x Software.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,17 +165,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "94fa70a86675a715",
+  "active": "52d9207e861b85b7",
   "lastOpenFiles": [
-    "Desenvolvimento Seguro/Untitled.md",
-    "Desenvolvimento Seguro/Criptografia/Federal Information Processing Standard.md",
-    "Desenvolvimento Seguro/PCI.md",
-    "Desenvolvimento Seguro/CWE - Common Weakness Enumeration.md",
+    "Desenvolvimento Seguro/Criptografia/Criptografia baseada em Hardware x Software.md",
     "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md",
+    "Desenvolvimento Seguro/PCI.md",
+    "Desenvolvimento Seguro/Criptografia/Federal Information Processing Standard.md",
+    "Desenvolvimento Seguro/Untitled.md",
+    "Desenvolvimento Seguro/CWE - Common Weakness Enumeration.md",
     "Desenvolvimento Seguro/LGPD.md",
     "conflict-files-obsidian-git.md",
     "Typescript/Typescript Config.md",
-    "Android Arc/og-image.png.md",
-    "Javascript/Functions/Bind, Call and Apply.md"
+    "Android Arc/og-image.png.md"
   ]
 }

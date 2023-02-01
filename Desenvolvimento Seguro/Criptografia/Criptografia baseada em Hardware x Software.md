@@ -33,6 +33,8 @@
 >
 >Superar normas regulatórias como LGPD, GDPR, eIDAS, [[PCI]] DSS, HIPAA, entre outras...
 
+- São testados e validados pela [[Federal Information Processing Standard|FIPS]] e Common Criteria
+
 ## Por que eu deveria usar um HSM?
 
 <mark style="background: #BBFABBA6;">Operações criptográficas como criptografia e assinatura digital são inúteis se as chaves privadas que usam não estiverem bem protegidas</mark>
@@ -90,9 +92,46 @@ Crie credenciais de identidade confiáveis
 
 Proteja as chaves que criam e assinam credenciais de pagamento
 
+---
 
+# Root of Trust
 
+A raiz de confiança é a base de segurança da qual seu sistema de computação e dispositivos móveis conectados dependem. 
 
+Como os esquemas são ineremente confiáveis, devem ser seguros desde a concepção. Normalmente, os esquemas de raiz de confiança contam com tecnologias de proteção de hardware como [[#HSM]]
+
+## Por que ela é importante?
+
+- Para impedir tentativas de ataques
+- Ajuda a criar confiança em todo o ecossistema da informação
+
+## Dispositivos móveis
+
+- Diversos desafios
+- Possuem maior risco de ataques físicos
+- Difícil de garantir que esteja em conformidade com políticas corporativas
+
+### O drama do _BYOD_
+
+>BYOD significa Bring Your Own Device
+
+A ideia é dar liberdade ao funcionário para que ele possa usar seus próprios aparelhos e dispositivos para acessar e modificar informações da empresa. 
+
+Com a comodidade de lidar com computadores ou smartphones que lhe convêm, o funcionário consegue cuidar de questões importantes de qualquer lugar.
+
+>[!SUCCESS] Desafio de sucesso!
+>
+>Encontrar o equilíbrio entre um ambiente extremamente seguro e a capacidade de permitir que seus funcionários acessem os dados de diversas e simplificadas formas.
+
+#### MDM com BYOD
+
+>MDM significa Mobile Devices Management
+
+A Entrust Datacard fornece um serviço administrativo de gerenciamento de dispositivos móveis que consiste em provisionamento e gerenciamento de certificados poderosos, confiáveis e uniformes para acesso contínuo às redes para funcionários remotos e teletrabalho seguro. 
+
+Além disso, tal serviço conta com gerenciamento completo do ciclo de vida da credencial e integração com produtos como VMWARE, Microsoft InTune, entre outros
+
+Para saber mais: [Entrust MDM](https://www.entrust.com/pt/digital-security/certificate-solutions/solutions/use-cases/mobile-device-management-byod)
 
 
 

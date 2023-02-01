@@ -95,7 +95,7 @@ This includes, but it is not limited to, bluetoooth, wi-fi, cellular, or Etherne
 
 >[!help] Federal Information Processing Standard 
 >
->A standard that provides four increasing, qualitative levels of security and is related to the Cryptographic Module Validation Program, which provides for vendors to submit products to a laboratory to validate cryptographic modules to the FIPS 140-2 standard and other cryptographic-based standards.
+>A standard that provides four increasing, qualitative levels of security and is related to the Cryptographic Module Validation Program, which provides for vendors to submit products to a laboratory to validate cryptographic modules to the [[Federal Information Processing Standard|FIPS 140-2]]] standard and other cryptographic-based standards.
 
 Products validated as conformation with it are accepted by the U.S. and Canadian federal agencies for the protection of sensitive information (United States) or designated information (Canada)
 
