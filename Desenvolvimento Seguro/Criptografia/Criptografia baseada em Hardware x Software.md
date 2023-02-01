@@ -25,4 +25,25 @@
 
 # HSM
 
-- Os módulos de segurança de hardware são dispositivos reforçados e resistentes a adulteração que protegem processos criptográficos gerando, protegendo e gerenciando chaves usadas para criptografar e descriptografar dados e criar assinaturas e certificados digitais.
+- Os módulos de segurança de hardware são dispositivos reforçados e resistentes a adulteração
+
+- Protegem processos criptográficos gerando e gerenciando chaves usadas para criptografar e descriptografar dados e criar assinaturas e certificados digitais.
+
+>[!INFO] Permitem às organizações
+>
+>Superar normas regulatórias como LGPD, GDPR, eIDAS, [[PCI]] DSS, HIPAA, entre outras...
+
+## Por que eu deveria usar um HSM?
+
+<mark style="background: #BBFABBA6;">Operações criptográficas como criptografia e assinatura digital são inúteis se as chaves privadas que usam não estiverem bem protegidas</mark>
+
+## HSM _as a service_
+
+>[!HELP] Cloud HSM
+
+Produto com base em assinatura no qual os clientes podem usar um módulo de segurança de hardware na nuvem para gerar, acessar e proteger material de chave criptográfica de forma separada dos dados confidenciais.
+
+O serviço normalmente oferece o mesmo nível de proteção
+
+
+
