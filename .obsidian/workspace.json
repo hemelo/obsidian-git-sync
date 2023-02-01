@@ -30,9 +30,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "82c2ec51150bccbd",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Desenvolvimento Seguro/PCI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Desenvolvimento Seguro/PCI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Desenvolvimento Seguro/PCI.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 560.5
+    "width": 560.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,17 +173,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1afa91365a9dec7d",
+  "active": "82c2ec51150bccbd",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Desenvolvimento Seguro/LGPD.md",
     "Desenvolvimento Seguro/PCI.md",
     "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md",
+    "Desenvolvimento Seguro/CWE - Common Weakness Enumeration.md",
+    "conflict-files-obsidian-git.md",
     "Typescript/Typescript Config.md",
-    "Desenvolvimento Seguro/LGPD.md",
     "Android Arc/og-image.png.md",
     "Javascript/Functions/Bind, Call and Apply.md",
     "Javascript/Functions/Functions.md",
-    "Javascript/ECMAScript.md",
-    "Typescript.md"
+    "Javascript/ECMAScript.md"
   ]
 }
