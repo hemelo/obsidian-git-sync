@@ -76,7 +76,17 @@ Its security requirements help provide assurance that payment software is design
 
  >[!Entropy]
  >
+ >Term used in cryptographic operations to represent the measure of the unpredictability of a random seed value.
  >
+ >Measured in bits
+ >Higher means less predictable
+ >**Used to measure the security strength of cryptographic keys**
+
+>[!DETAILS] Execution Environment
+
+
+
+
  
  
 
