@@ -74,7 +74,11 @@ Its security requirements help provide assurance that payment software is design
 >
 >A global technical body owned by American Express, Discover, JCB, Mastercard, UnionPay, and Visa that facilitates the worldwide interoperability and acceptance of secure payment transactions by managing and envolving the EMV specifications and related testing processes
 
-
+ >[!Entropy]
+ >
+ >
+ 
+ 
 
 
 
