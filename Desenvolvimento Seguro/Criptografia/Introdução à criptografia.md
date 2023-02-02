@@ -24,6 +24,14 @@ One-way functions
 >[!INFO] Confidencialidade
 >Garantir que ninguém veja o conteúdo da mensagem
 
+# Chaves Simétricas
+
+>[!DANGER]
+>Sempre existe algum risco no compartilhamento de chaves
+
+>[!SUCCESS]
+>Armazenar em [[Criptografia baseada em Hardware x Software#Hardware|hardware]] ajuda mas não resolve
+
 ## Data Encryption Standard (DES)
 
 - Desenvolvido pela IBM
@@ -38,12 +46,22 @@ One-way functions
 
 Dois blocos idênticos de texto simples levam a dois blocos idênticos de textos cifrados
 
+- Trocar a ordem não impede que se recupere a informação
+
 >Cypher Block Chaining
 
+Como o resultado de cada passo é utilizado para alimentar o passo seguinte, dois blocos idênticos de texto levam a dois blocos totalmente diferentes de textos cifrados
 
+- Trocar a ordem impede de se recuperar a informação
 
+>[!INFO] 
+>Essa metodologia é utilizada na urna eletrônica brasileira e na blockchain
 
+- Dificulta criptoanálises estatísticas
 
+## Diversificação de chaves
 
+Processo pela qual uma chave simétrica é transformada em outra chave simétrica
 
+![[Pasted image 20230201215139.png]]
 
