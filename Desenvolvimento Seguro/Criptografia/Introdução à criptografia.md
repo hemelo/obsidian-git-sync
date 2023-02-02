@@ -24,4 +24,8 @@ One-way functions
 >[!INFO] Confidencialidade
 >Garantir que ninguém veja o conteúdo da mensagem
 
+>Data Encryption Standard (DES)
+![[Pasted image 20230201212124.png]]
+- 
+
 
