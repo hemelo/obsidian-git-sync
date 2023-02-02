@@ -1,5 +1,6 @@
 {
   "accentColor": "",
   "cssTheme": "Royal Velvet",
-  "interfaceFontFamily": "Fira Code"
+  "interfaceFontFamily": "Fira Code",
+  "baseFontSize": 15
 }
