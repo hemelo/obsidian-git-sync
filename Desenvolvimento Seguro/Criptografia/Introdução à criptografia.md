@@ -67,11 +67,18 @@ Processo pela qual uma chave simétrica é transformada em outra chave simétric
 
 # Chaves Assimétricas
 
->[!DANGER] Complexas
+>[!DANGER] Complexas de serem geradas
 
->[!DANGER]
+>[!DANGER] Menos velocidade
 
+>[!DANGER] Maior tamanho de chave
 
 >[!SUCCESS] Drástica redução do número de chaves
 
->
+>[!SUCCESS] Permite disponibilizar uma das chaves (a pública)
+
+> [!SUCCESS] Permite implementar mecanismos de não repudiação
+
+
+
+
