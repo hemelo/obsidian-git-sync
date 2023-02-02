@@ -30,7 +30,7 @@ One-way functions
 >Sempre existe algum risco no compartilhamento de chaves
 
 >[!SUCCESS]
->Armazenar em [[Criptografia baseada em Hardware x Software#Hardware|hardware]] ajuda mas não resolve
+>Armazenar em [[Criptografia baseada em Hardware x Software#Hardware|hardware]] ajuda, mas não resolve
 
 ## Data Encryption Standard (DES)
 
@@ -65,3 +65,13 @@ Processo pela qual uma chave simétrica é transformada em outra chave simétric
 
 ![[Pasted image 20230201215139.png]]
 
+# Chaves Assimétricas
+
+>[!DANGER] Complexas
+
+>[!DANGER]
+
+
+>[!SUCCESS] Drástica redução do número de chaves
+
+>
