@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Desenvolvimento Seguro/Criptografia/Criptografia baseada em Hardware x Software.md",
+                "file": "Desenvolvimento Seguro/PCI.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7af58feb0f5fb8a7",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Desenvolvimento Seguro/Criptografia/Criptografia baseada em Hardware x Software.md",
+                "file": "Desenvolvimento Seguro/PCI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Desenvolvimento Seguro/Criptografia/Criptografia baseada em Hardware x Software.md",
+                "file": "Desenvolvimento Seguro/PCI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Desenvolvimento Seguro/Criptografia/Criptografia baseada em Hardware x Software.md"
+                "file": "Desenvolvimento Seguro/PCI.md"
               }
             }
           },
@@ -168,6 +167,7 @@
   "active": "52d9207e861b85b7",
   "lastOpenFiles": [
     "Desenvolvimento Seguro/Criptografia/Criptografia baseada em Hardware x Software.md",
+    "2023-02-01.md",
     "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md",
     "Desenvolvimento Seguro/PCI.md",
     "Desenvolvimento Seguro/Criptografia/Federal Information Processing Standard.md",
@@ -175,7 +175,6 @@
     "Desenvolvimento Seguro/CWE - Common Weakness Enumeration.md",
     "Desenvolvimento Seguro/LGPD.md",
     "conflict-files-obsidian-git.md",
-    "Typescript/Typescript Config.md",
-    "Android Arc/og-image.png.md"
+    "Typescript/Typescript Config.md"
   ]
 }

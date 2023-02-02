@@ -6,10 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FabCcMastercard",
+      "Fab42Group",
       "🇧🇷",
       "💳",
-      "FabLinux",
-      "FabAndroid"
+      "FabLinux"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -22,6 +23,6 @@
   },
   "Android Arc": "FabAndroid",
   "Desenvolvimento Seguro": "FabLinux",
-  "Desenvolvimento Seguro/PCI.md": "💳",
+  "Desenvolvimento Seguro/PCI.md": "FabCcMastercard",
   "Desenvolvimento Seguro/LGPD.md": "🇧🇷"
 }
