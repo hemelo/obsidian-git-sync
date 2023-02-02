@@ -167,7 +167,7 @@ CAs são responsáveis por criar certificados digitais e suas políticas, práti
 
 Assim que as CAs determinam tudo isso, elas devem formalmente documentar essas políticas. A partir disso, é parte do cliente saber o quanto confiam ou não nesses certificados.
 
-#### Criação de um certificado
+### Criação de um certificado
 ![[Pasted image 20230202190244.png]]
 1. Criação de chaves pelo usuário ou CA.
 2. A CA pega dados de identificação do usuário (dono da chave privada), assim como a chave pública
@@ -177,7 +177,7 @@ Assim que as CAs determinam tudo isso, elas devem formalmente documentar essas p
 
 - Uma parte importante do processo é que a CA tem sua chave privada e pública, o suficiente pra criar cadeias e hierarquias
 
-### Camadas de confiança
+#### Camadas de confiança
 
 ![[Pasted image 20230202190656.png]]
 >[!WARNING] Ultimately root certificate
@@ -185,16 +185,21 @@ Assim que as CAs determinam tudo isso, elas devem formalmente documentar essas p
 
 Usually root certificates are self-signed. As a result, people must inherently trust the root certificate authority to trust any certificates that trace back to it.
 
-#### Quem garante essa confiança?
+##### Quem garante essa confiança?
 
 - Não existem meios de revogar certificados raízes
 - Se existem prováveis falhas, devem se tornar públicas o mais rápido possível
 - Uma chave privada caindo nas mãos erradas é ruim em qualquer caso, especialmente as de CA porque podem acarretar em geração/validação de certificados fraudulentamente
 
 >[!INFO] Segurança
->Uma CA deve ser offline 99,9% do tempo
+>- Uma CA deve ser offline 99,9% do tempo
+>- Ter guardas no local físico
+>- Ser como uma prisão de segurança máxima
 
+- Certificados de CA duram 15 a 20 anos
 
+### Nível de PKI
+![[Pasted image 20230202192350.png]]
 
 ### Cartões de crédito
 
@@ -209,5 +214,21 @@ Usually root certificates are self-signed. As a result, people must inherently t
 6. Para validar o cartão, um terminal valida o certificado do emissor através da chave pública da CA
 7. Por sua vez, o terminal valida o certificado do cliente através da chave pública do emissor
 ![[Pasted image 20230201225244.png]]
+
+### Revogação de certificados (CRL)
+
+Embora as CAs tornem público os certificados inválidos é de responsabilidade do consumidor do certificado validar. 
+
+>[!INFO] Certificate Revocation List
+>Lista de certificados inseguros e não confiáveis
+
+>[!ERROR] É muito lento pra verificar lista de certificados inválidos
+
+![[Pasted image 20230202192812.png]]
+>[!SUCCESS] Tempo de validade
+>Essas _blacklists_ possuem validade. Quando ela expira, todos os certificados da CA tornam-se inválidos, quebrando toda a PKI. Além disso, as CAs checam as subordinadas de manter os certificados atualizados e não expiraods
+
+
+
 
 
