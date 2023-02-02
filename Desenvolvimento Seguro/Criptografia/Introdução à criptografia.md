@@ -89,17 +89,25 @@ Criptografia assimétrica para trocar uma chave de sessão, e a partir disso, ut
 
 Como garantir, criptograficamente, a integridade e autenticidade de uma mensagem?
 
+>[!INFO] Imagine a seguinte situação
+>- Bob envia mensagem pra Alice e encripta a assinatura no final usando a própria chave privada
+>- Quando Alice recebe,ela pode usar a chave pública de Bob para verificar duas coisas:
+>	- Bob, ou alguém com a chave secreta, enviou a mensagem
+>	- A mensagem não foi modificada em trânsito, porque se foi a verificação iria falhar
+
+Mas como garantir?
+
 >Hash
 
 Historicamente, checksums e CRCs vêm sendo utilizados como hashes há muitos anos
-
->[!DANGER] Problema
->Diferentes blocos de entrada facilmente produzem o mesmo resultado. 
 
 Funções modernas:
 - MD5 → 16 bytes
 - SHA-1 → 20 bytes
 - SHA-256 → 256 bytes
+
+>[!DANGER] Problema
+>Diferentes blocos de entrada facilmente produzem o mesmo resultado. 
 
 ### Solução ao problema do Hash
 
@@ -135,6 +143,19 @@ Nota: Para a solução podem ser utilizadas chaves simétricas ou assimétricas.
 3. Validar se hashes são idênticos
 
 ## Public Key Infrastructure
+
+Através dos certificados, fica garantido a identidade da pessoa à chave em uso
+
+### Regras de Certificado
+
+-   Equivalente à uma carteira de habilitação
+-   Contém informação de um indivíduo ou entidade
+-   Feito por um terceiro de confiança
+-   Is tamper-resistant 
+-   Contém informações que provam autenticidade
+-   Contém informações que levam a quem gerou 
+-   Possui data de expiração
+-   Apresentado para alguém/órgão para validação
 
 >[!INFO] Exemplo envolvendo cartões
 >CA → Emissor → Cliente
