@@ -157,6 +157,16 @@ Através dos certificados, fica garantido a identidade da pessoa à chave em uso
 -   Possui data de expiração
 -   Apresentado para alguém/órgão para validação
 
+### Autoridades Certificadoras
+
+CAs são responsáveis por criar certificados digitais e suas políticas, práticas e procedimentos para lidar com certificados
+
+- Segurança, operações e procedimentos
+- Tipos de certificados validados
+- Parâmetros contidos no certificado
+
+Assim que as CAs determinam
+
 >[!INFO] Exemplo envolvendo cartões
 >CA → Emissor → Cliente
 
