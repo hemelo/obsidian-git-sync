@@ -9,5 +9,10 @@
   "table-editor-obsidian",
   "obsidian-icon-folder",
   "obsidian-footnotes",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-citation-plugin",
+  "editing-toolbar",
+  "obsidian-full-calendar",
+  "obsidian-extract-pdf-highlights",
+  "obsidian-reading-time"
 ]
