@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Desenvolvimento Seguro/PCI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "487a59002bb4952a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Design de Código/Clean Code.md",
+                "file": "Code Design/Clean Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design de Código/Clean Code.md",
+                "file": "Code Design/Clean Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design de Código/Clean Code.md",
+                "file": "Code Design/Clean Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design de Código/Clean Code.md"
+                "file": "Code Design/Clean Code.md"
               }
             }
           },
@@ -179,17 +166,17 @@
       "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "487a59002bb4952a",
+  "active": "86b7b9cfd81c876f",
   "lastOpenFiles": [
+    "Pasted image 20230201215139.png",
+    "Code Design/Clean Code.md",
     "Desenvolvimento Seguro/PCI.md",
-    "Design de Código/Clean Code.md",
     "2023-02-02.md",
     "Cards/Smart Cards.md",
     "Desenvolvimento Seguro/Criptografia/Criptografia baseada em Hardware x Software.md",
     "Untitled.canvas",
     "Desenvolvimento Seguro/Criptografia/Introdução à criptografia.md",
     "2023-02-01.md",
-    "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md",
-    "Desenvolvimento Seguro/Criptografia/Federal Information Processing Standard.md"
+    "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md"
   ]
 }

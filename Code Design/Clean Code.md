@@ -8,8 +8,8 @@ Aplicar técnicas simples que visam facilitar a escrita e leitura de um código,
 >_"Uma diferença entre um programador inteligente e um programador profissional é que o profissional entende a clareza que é rei. Profissionais usam seus poderes para o bem e escrever código que outros possam entender"_
 
 ---
-```ActivityHistory
-```
+
+
 ---
 
 # Boas práticas
