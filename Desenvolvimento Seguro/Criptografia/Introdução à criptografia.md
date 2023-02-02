@@ -165,7 +165,38 @@ CAs são responsáveis por criar certificados digitais e suas políticas, práti
 - Tipos de certificados validados
 - Parâmetros contidos no certificado
 
-Assim que as CAs determinam
+Assim que as CAs determinam tudo isso, elas devem formalmente documentar essas políticas. A partir disso, é parte do cliente saber o quanto confiam ou não nesses certificados.
+
+#### Criação de um certificado
+![[Pasted image 20230202190244.png]]
+1. Criação de chaves pelo usuário ou CA.
+2. A CA pega dados de identificação do usuário (dono da chave privada), assim como a chave pública
+3. A CA utiliza a chave pública + dados de identidade pra gerar o CSR - Requisição de assinatura de certificado
+4. O CSR é assinado com a chave privada do usuário
+5. A CA valida o CSR e assina o certificado com a própria chave privada da certificadora
+
+- Uma parte importante do processo é que a CA tem sua chave privada e pública, o suficiente pra criar cadeias e hierarquias
+
+### Camadas de confiança
+
+![[Pasted image 20230202190656.png]]
+>[!WARNING] Ultimately root certificate
+>Não existe
+
+Usually root certificates are self-signed. As a result, people must inherently trust the root certificate authority to trust any certificates that trace back to it.
+
+#### Quem garante essa confiança?
+
+- Não existem meios de revogar certificados raízes
+- Se existem prováveis falhas, devem se tornar públicas o mais rápido possível
+- Uma chave privada caindo nas mãos erradas é ruim em qualquer caso, especialmente as de CA porque podem acarretar em geração/validação de certificados fraudulentamente
+
+>[!INFO] Segurança
+>Uma CA deve ser offline 99,9% do tempo
+
+
+
+### Cartões de crédito
 
 >[!INFO] Exemplo envolvendo cartões
 >CA → Emissor → Cliente
