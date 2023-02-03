@@ -104,10 +104,26 @@ class Product {
 ### Evitar redundância
 ---
 
+>[!DANGER] Evitar nomes com tipos
 
+```php
+PhoneNumber $phoneString;
+```
+
+A variável acima era provavelmente do tipo String e foi encapsulada em um objeto
+
+```php
+Phone $phoneObject; 
+String $phoneNumber; 
+var_dump($phoneObject->number);
+```
 
 - Aplicar ciência da computação
 - Não causar o efeito de verossimilhança
+- Também conhecido como efeito de confundir as dicas de preenchimento de código. 
+- Usar componentes com nomes muitos semelhantes entre si induz ao erro de leitura, interpretação e até mesmo durante o processo de desenvolvimento
+
+
 - Contextualizar tudo
 - 
 
