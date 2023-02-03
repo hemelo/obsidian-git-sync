@@ -11,7 +11,9 @@ Aplicar técnicas simples que visam facilitar a escrita e leitura de um código,
 
 ## Nomenclatura
 
+---
 ### Usar nomes significativos e passíveis de busca
+---
 
 ```php
 var $workDays = 0;
@@ -117,13 +119,87 @@ Phone $phoneObject;
 String $phoneNumber; 
 var_dump($phoneObject->number);
 ```
+---
+### Aplicar ciência da computação
+---
 
-- Aplicar ciência da computação
-- Não causar o efeito de verossimilhança
+---
+### Não causar o efeito de verossimilhança
+---
+
 - Também conhecido como efeito de confundir as dicas de preenchimento de código. 
 - Usar componentes com nomes muitos semelhantes entre si induz ao erro de leitura, interpretação e até mesmo durante o processo de desenvolvimento
 
+1.  _XYZControllerForEfficientHandlingOfStrings_
+2.  _XYZControllerForEfficientStorageOfStrings_
 
-- Contextualizar tudo
-- 
+---
+### Contextualizar tudo
+---
+```php
+// Incorreto class 
+Usuario { 
+	var $primeiroNome; 
+	var $ultimoNome;
+	var $rua; 
+	var $numero; 
+	var $cidade; 
+	var $cep; 
+} 
+
+// Menos incorreto 
+class Usuario { 
+	var $primeiroNomeEndereco; 
+	var $ultimoNomeEndereco; 
+	var $ruaEndereco; 
+	var $numeroEndereco; 
+	var $cidadeEndereco; 
+	var $cepEndereco; 
+} 
+
+// Ideal, bem separado 
+class Usuario { 
+	Endereco $endereco; 
+} 
+
+class Endereco { 
+	var $primeiroNome; 
+	var $ultimoNome; 
+	var $rua; 
+	var $numero; 
+	var $cidade; 
+	var $cep; 
+}
+
+// Péssimo, perceba que há um excesso na contextualização 
+class Endereco { 
+	var $primeiroNomeEndereco; 
+	var $ultimoNomeEndereco; 
+	var $ruaEndereco; 
+	var $numeroEndereco; 
+	var $cidadeEndereco; 
+	var $cepEndereco; 
+}
+```
+
+```php
+// Mal contextualizado, pode ser postal, web... 
+class Address { } 
+
+// Bem contextualizado 
+class PostalAddress { } 
+class MAC { } 
+class URI { } 
+
+// Bem contextualizado, mas extremamente pobre em abstração 
+class AccountAddress { } 
+class CustomerAddress { }
+```
+
+Por que pobre em abstração?
+- Porque é possível cotnextualizar uma instância ainda que a classe esteja com nome mal contextualizado, somente pela nomenclatura da variável
+```php
+$customerAddress = new Account(); 
+$clientAddress = new Account();
+```
 
