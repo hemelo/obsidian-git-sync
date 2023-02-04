@@ -9,7 +9,7 @@
 >- Controle da qualidade
 >- Ações preventivas
 
->[!IMPORTANT] Voice of costumer
+>[!IMPORTANT] [[#^941189|Voice of costumer]]
 >O cliente deve ser ouvido e ter voz
 
 >[!WARNING] Critical customer requirement
@@ -159,3 +159,21 @@ Pela imagem, nota-se que eliminando os 3 principais problmas, 80% das ocorrênci
 ---
 
 # Desdobramento da função qualidade (QFD)
+
+Aqui é importante a voz do cliente, pois: ^941189
+
+- Muitas vezes, o cliente não sabe o que quer ou precisa. O QFD visa entender o que ele quer melhor do que ele mesmo
+- Prever como o cliente perceberá o valor de um produto
+	- Ex.: Os spinners que foram criados pra diminuir transtorno de atenção e acabaram sendo usados como passatempo por crianças
+- Obter apoio das partes interessadas
+- Desenvolvimento de metas baseadas nas preferências do cliente
+- Documentação de requisitos
+- Priorização de recursos
+
+## Casa da qualidade
+
+![[Pasted image 20230203215341.png]]
+
+## Como montar o modelo da Casa da Qualidade
+
+1. Adicionar necessidades e classificações do cliente
