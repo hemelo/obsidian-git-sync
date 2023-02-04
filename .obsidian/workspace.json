@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code Design/Clean Code.md",
+                "file": "Cards/Smart Cards.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd56bbb66bdec54c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Administração/Gestão de Qualidade.md",
                 "mode": "source",
                 "source": false
               }
@@ -27,7 +39,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code Design/Clean Code.md",
+                "file": "Administração/Gestão de Qualidade.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code Design/Clean Code.md",
+                "file": "Administração/Gestão de Qualidade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code Design/Clean Code.md"
+                "file": "Administração/Gestão de Qualidade.md"
               }
             }
           },
@@ -145,13 +158,21 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "4d24398a61393b44",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 560.5,
+    "width": 258.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -168,13 +189,13 @@
       "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "52d9207e861b85b7",
+  "active": "dd56bbb66bdec54c",
   "lastOpenFiles": [
-    "Pasted image 20230201215139.png",
+    "Cards/Smart Cards.md",
     "Code Design/Clean Code.md",
+    "Pasted image 20230201215139.png",
     "Desenvolvimento Seguro/PCI.md",
     "2023-02-02.md",
-    "Cards/Smart Cards.md",
     "Desenvolvimento Seguro/Criptografia/Criptografia baseada em Hardware x Software.md",
     "Untitled.canvas",
     "Desenvolvimento Seguro/Criptografia/Introdução à criptografia.md",
