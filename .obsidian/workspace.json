@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "c5c4347e20e6df64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Administração/Marketing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "606d0b35fe8511f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Lombok.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "82c2ec51150bccbd",
             "type": "leaf",
             "state": {
@@ -27,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Administração/Gestão de Qualidade.md",
+                "file": "Java/Lombok.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Administração/Gestão de Qualidade.md",
+                "file": "Java/Lombok.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Administração/Gestão de Qualidade.md"
+                "file": "Java/Lombok.md"
               }
             }
           },
@@ -175,17 +200,17 @@
       "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "52d9207e861b85b7",
+  "active": "606d0b35fe8511f5",
   "lastOpenFiles": [
-    "Cards/Smart Cards.md",
+    "Administração/Marketing.md",
     "Administração/Gestão de Qualidade.md",
+    "Cards/Smart Cards.md",
     "Code Design/Clean Code.md",
     "Pasted image 20230201215139.png",
     "Desenvolvimento Seguro/PCI.md",
     "2023-02-02.md",
     "Desenvolvimento Seguro/Criptografia/Criptografia baseada em Hardware x Software.md",
     "Untitled.canvas",
-    "Desenvolvimento Seguro/Criptografia/Introdução à criptografia.md",
-    "2023-02-01.md"
+    "Desenvolvimento Seguro/Criptografia/Introdução à criptografia.md"
   ]
 }
