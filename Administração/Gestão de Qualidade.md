@@ -176,4 +176,15 @@ Aqui é importante a voz do cliente, pois: ^941189
 
 ## Como montar o modelo da Casa da Qualidade
 
-1. Adicionar necessidades e classificações do cliente
+1. Adicionar necessidades e classificações (prioridades) do cliente
+![[Pasted image 20230203220923.png]]
+2. Adicione os requisitos de design do produto
+![[Pasted image 20230203221408.png]]
+
+3. Identificar as relações entre necessidades do cliente e requisitos de design
+
+![[Pasted image 20230203221544.png]]
+
+>Se os clientes desejam um celular mais barato, por exemplo, o custo de produção afetará diretamente no rpreço. O SO, a bateria e o vidro da tela do produto também influenciam no custo porém menos
+
+4. Calcular todas classificações de importânia
