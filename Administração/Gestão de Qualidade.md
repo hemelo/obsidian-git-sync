@@ -40,6 +40,9 @@
 >[!IMPORTANT] [[#SIPOC]]
 >Supplier -> Input -> Process -> Output -> Customer
 
+>[!INFO] Diagrama de Ishikawa
+>6Ms - Método, Máquina, Mão de Obra, Material, Meio Ambiente, Medida
+
 ---
 # SIPOC
 
@@ -127,4 +130,8 @@ Pela imagem, nota-se que eliminando os 3 principais problmas, 80% das ocorrênci
 >- Por que o gerente não fez isso?
 >Negligência
 
+
+## Encontrando as soluções
+
+### Matriz GUT
 
