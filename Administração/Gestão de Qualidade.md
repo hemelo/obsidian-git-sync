@@ -154,3 +154,8 @@ Pela imagem, nota-se que eliminando os 3 principais problmas, 80% das ocorrênci
 |                                               |           |          |            |       |
 
 >Certamente os maiores problemas são: Tipos diferentes de clientes, Computador antigo e parada da impressora
+
+
+---
+
+# Desdobramento da função qualidade (QFD)
