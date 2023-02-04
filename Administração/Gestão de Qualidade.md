@@ -97,6 +97,8 @@ O gráfico de pareto é uma plotagem com barras verticais que indicam incidênci
 
 Pela imagem, nota-se que eliminando os 3 principais problmas, 80% das ocorrências são reduzidas
 
+## Encontrando as causas
+
 ### Diagrama de Ishikawa
 
 >[!INFO] Conhecido como espinha de peixe
@@ -105,3 +107,12 @@ Pela imagem, nota-se que eliminando os 3 principais problmas, 80% das ocorrênci
 
 ![[Pasted image 20230203205847.png]]
 
+### 5 porquês
+
+- Que prova tenho de que essa causa
+	- existe?
+	- levará ao problema?
+	- é a principal causa?
+	- 
+- Que provas tenho de que essa causa levará ao problema?
+- 
