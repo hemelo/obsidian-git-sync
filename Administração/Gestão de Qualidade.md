@@ -152,3 +152,5 @@ Pela imagem, nota-se que eliminando os 3 principais problmas, 80% das ocorrênci
 | Tipos diferentes de clientes                  | 5         | 5        | 5          | 125   |
 | Computador antigo                             | 4         | 5        | 5          | 100   |
 |                                               |           |          |            |       |
+
+>Certamente os maiores problemas são: Tipos diferentes de clientes, Computador antigo e parada da impressora
