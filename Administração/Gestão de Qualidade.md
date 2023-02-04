@@ -113,6 +113,18 @@ Pela imagem, nota-se que eliminando os 3 principais problmas, 80% das ocorrênci
 	- existe?
 	- levará ao problema?
 	- é a principal causa?
-	- 
-- Que provas tenho de que essa causa levará ao problema?
-- 
+	- é a única?
+
+>Um garçom processa um pagamento errado, o cliente fica bravo e xinga o garçom. As pessoas acham o garçom incompetente. Mas se analisar bem:
+>- Por que o garçom errou?
+>Não sabia fazer o pagamento
+>- Por que não sabia fazer a operação de processar um pagamento?
+>É novato
+>- Por que o fato de ser novato dificultou a operação?
+>Não foi treinado
+>- Por que não foi treinado?
+>Não foi selecionado alguém para treiná-lo
+>- Por que o gerente não fez isso?
+>Negligência
+
+
