@@ -40,8 +40,14 @@
 >[!IMPORTANT] [[#SIPOC]]
 >Supplier -> Input -> Process -> Output -> Customer
 
->[!INFO] Diagrama de Ishikawa
+>[!INFO] [[#Diagrama de Ishikawa]]
 >6Ms - Método, Máquina, Mão de Obra, Material, Meio Ambiente, Medida
+
+>[!SUCCESS] [[#Matriz GUT]]
+>Gravidade, Urgência, Frequência
+
+
+
 
 ---
 # SIPOC
@@ -135,3 +141,8 @@ Pela imagem, nota-se que eliminando os 3 principais problmas, 80% das ocorrênci
 
 ### Matriz GUT
 
+| Item                                          | Gravidade | Urgência | Frequência | Total |
+| --------------------------------------------- | --------- | -------- | ---------- | ----- |
+| Estoque Lento                                 | 3         | 5        | 1          | 15    |
+| Leitura errada do sistema que checa o estoque | 2         | 3        | 2          | 12    |
+| Sem Ar-condicionadop                          |           |          |            |       |
