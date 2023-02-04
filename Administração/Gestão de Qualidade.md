@@ -145,4 +145,10 @@ Pela imagem, nota-se que eliminando os 3 principais problmas, 80% das ocorrênci
 | --------------------------------------------- | --------- | -------- | ---------- | ----- |
 | Estoque Lento                                 | 3         | 5        | 1          | 15    |
 | Leitura errada do sistema que checa o estoque | 2         | 3        | 2          | 12    |
-| Sem Ar-condicionadop                          |           |          |            |       |
+| Sem Ar-condicionado                           | 2         | 3        | 1          | 6     |
+| Erro na consulta do Pedido                    | 3         | 3        | 1          | 9     |
+| Parada da Impressora                          | 3         | 3        | 5          | 45    |
+| Falta de Treinamento                          | 2         | 3        | 1          | 6     |
+| Tipos diferentes de clientes                  | 5         | 5        | 5          | 125   |
+| Computador antigo                             | 4         | 5        | 5          | 100   |
+|                                               |           |          |            |       |
