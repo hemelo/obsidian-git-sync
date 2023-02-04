@@ -188,3 +188,17 @@ Aqui é importante a voz do cliente, pois: ^941189
 >Se os clientes desejam um celular mais barato, por exemplo, o custo de produção afetará diretamente no rpreço. O SO, a bateria e o vidro da tela do produto também influenciam no custo porém menos
 
 4. Calcular todas classificações de importânia
+
+- Para calcular, multiplique a classificação de importância do cliente (em %) e a pontuação do relacionamento
+- Após calcular todas, divida cada classificação pelo total de porcentagens. Os requisitos com as maiores classificações são os recursos que sua empresa deve priorizar/investir mais
+
+5. Marque se é preferível o recurso ser menos ou mais
+![[Pasted image 20230203223339.png]]
+>Ex.: Peso é preferível ter menos, ou seja, seta pra baixo
+
+
+6. Matriz de correlação
+
+![[Pasted image 20230203223120.png]]
+
+![[Pasted image 20230203222954.png]]
