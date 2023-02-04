@@ -201,4 +201,12 @@ Aqui é importante a voz do cliente, pois: ^941189
 
 ![[Pasted image 20230203223120.png]]
 
+Com base nas setas para cima ou para baixa, você determina a correlação entre os diferentes requisitos de design
+
 ![[Pasted image 20230203222954.png]]
+
+7. Adicione uma pesquisa da concorrência
+
+## Montado
+
+![[Pasted image 20230203230151.png]]

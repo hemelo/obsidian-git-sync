@@ -13,18 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cards/Smart Cards.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd56bbb66bdec54c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Administração/Gestão de Qualidade.md",
                 "mode": "source",
                 "source": false
@@ -39,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7af58feb0f5fb8a7",
@@ -189,9 +175,10 @@
       "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "dd56bbb66bdec54c",
+  "active": "52d9207e861b85b7",
   "lastOpenFiles": [
     "Cards/Smart Cards.md",
+    "Administração/Gestão de Qualidade.md",
     "Code Design/Clean Code.md",
     "Pasted image 20230201215139.png",
     "Desenvolvimento Seguro/PCI.md",
@@ -199,7 +186,6 @@
     "Desenvolvimento Seguro/Criptografia/Criptografia baseada em Hardware x Software.md",
     "Untitled.canvas",
     "Desenvolvimento Seguro/Criptografia/Introdução à criptografia.md",
-    "2023-02-01.md",
-    "Desenvolvimento Seguro/Introdução ao Desenvolvimento Seguro.md"
+    "2023-02-01.md"
   ]
 }
