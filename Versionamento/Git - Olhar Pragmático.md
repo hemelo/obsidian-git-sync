@@ -1,7 +1,7 @@
 
 Como o git funciona debaixo dos panos?
 
-## Componentes do GIT
+## Estrutura de Grafos
 
 ```bash
 $ls -F1 .git
@@ -67,3 +67,55 @@ Adicionando metadados
 $git commit-tree 3725c -m 'Initial Commit' 87281bbaa25e33bd0ff343fb49d746b8afcf9163
 ```
 
+Verificando dados commit
+
+```bash
+$git cat-file -t 87281bbaa25e33bd0ff343fb49d746b8afcf9163
+commit
+```
+
+```bash
+$git cat-file -p 87281bbaa25e33bd0ff343fb49d746b8afcf9163 
+tree 3725c9e313e5ae764b2451a8f3b1415bf67cf471 
+author henrique <hmelo2509@gmail.com> 1670171001 -0300 
+committer henrique <hmelo2509@gmail.com> 1670171001 -0300 Initial Commit
+```
+
+Commits também são indexados
+
+```bash
+$find .gits/objects
+
+.git/objects/
+.git/objects/pack/
+.git/objects/87/
+.git/objects/87/281bbaa25e33bd0ff343fb49d746b8afcf9163
+.git/objects/37/
+.git/objects/37/25c9e313e5ae764b2451a8f3b1415bf67cf471
+.git/objects/8b/
+.git/objects/8b/73d29acc6ae79354c2b87ab791aecccf51701f
+```
+
+Adicionando um novo commit
+
+```bash
+$git commit-tree 3725c -p 87281b -m 'Second Commit'
+```
+
+Verificando dados commit
+
+```bash
+$git cat-file -p 06474 
+ree 3725c9e313e5ae764b2451a8f3b1415bf67cf471 
+parent 87281bbaa25e33bd0ff343fb49d746b8afcf9163 
+author henrique <hmelo2509@gmail.com> 1670171092 -0300 
+committer henrique <hmelo2509@gmail.com> 1670171092 -0300 Second Commit
+```
+
+Verificando logs
+
+```bash
+$git log 06474
+
+commit 06474da697cff53c4a97080728d17a00b0c6db2 # Mais recente Author: henrique <hmelo2509@gmail.com> Date: Sun Dec 04 13:23:21 2022 -0300 commit 87281bbaa25e33bd0ff343fb49d746b8afcf9163 Author: henrique <hmelo2509@gmail.com> Date: Sun Dec 04 13:24:52 2022 -0300
+```

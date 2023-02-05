@@ -59,8 +59,12 @@
             "id": "a1e29e745797e328",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Versionamento/Git - Olhar Pragmático.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -138,6 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Versionamento/Git - Olhar Pragmático.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,6 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Versionamento/Git - Olhar Pragmático.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Versionamento/Git - Olhar Pragmático.md"
+              }
             }
           },
           {
