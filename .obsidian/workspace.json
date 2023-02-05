@@ -126,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7af58feb0f5fb8a7",
@@ -224,7 +225,7 @@
       "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "a1e29e745797e328",
+  "active": "86b7b9cfd81c876f",
   "lastOpenFiles": [
     "Versionamento/Git.md",
     "Code Snippets/MYSQL Snippets.md",

@@ -173,19 +173,31 @@ $git symbolic-ref HEAD refs/heads/test
 
 ### add
 
-Hash-Object + Update-Index
+>Hash-Object + Update-Index
+
+![[Pasted image 20230205200318.png]]
+
 
 ### commit
 
-Write-Tree + Commit-Tree
+>Write-Tree + Commit-Tree
+
+![[Pasted image 20230205200430.png]]
+![[Pasted image 20230205200503.png]]
+![[Pasted image 20230205200534.png]]
 
 ### checkout
 
-Symbolic-Ref
+>Symbolic-Ref
 
+![[Pasted image 20230205200608.png]]
 ### reset
 
-Update-Ref
+Altera o ponteiro da branch
+
+>Update-Ref
+
+![[Pasted image 20230205200723.png]]
 
 ### merge
 
