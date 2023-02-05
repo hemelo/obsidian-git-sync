@@ -195,7 +195,7 @@ $git symbolic-ref HEAD refs/heads/test
 
 Altera o ponteiro da branch
 
->Update-Ref
+>`update-ref`
 
 ![[Pasted image 20230205200723.png]]
 
@@ -214,4 +214,59 @@ Altera o ponteiro da branch
 
 ### cherry-pick
 
+Move o ponteiro da branch atual para o commit passado como parâmetro
+
+![[Pasted image 20230205202300.png]]
+![[Pasted image 20230205202306.png]]
+
 ### rebase
+
+![[Pasted image 20230205202424.png]]
+![[Pasted image 20230205202537.png]]
+![[Pasted image 20230205202544.png]]
+
+### fetch
+
+![[Pasted image 20230205202721.png]]
+
+### push
+
+![[Pasted image 20230205202742.png]]
+
+### tag
+
+São imutáveis
+
+![[Pasted image 20230205202758.png]]
+
+```bash
+$find .git/refs 
+
+.git/refs/ 
+.git/refs/heads 
+.git/refs/heads/main 
+.git/refs/tags 
+.git/refs/tags/v1.0 
+.git/refs/remotes 
+.git/refs/remotes/origin 
+.git/refs/remotes/origin/main
+```
+
+
+## Merge vs Rebase
+
+>[!SUCCESS] Merge é uma operação não destrutiva
+
+>[!DANGER] Merge deixa muitos commits estranhos no log
+
+![[02 Merging main into the feature branh.svg]]
+>[!SUCCESS] Rebase deixa o histórico bem limpo, sem bifurcações
+
+>[!DANGER] Perde rastreabilidade e contexto do commit extra
+
+![[03 Rebasing the feature branch into main.svg]]
+
+### Regras de Ouro
+
+Nunca usar `rebase` em ramificações públicas
+![[05 Rebasing the main branch.svg]]
