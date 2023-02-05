@@ -1,7 +1,7 @@
+>[!QUESTION] Como o git funciona debaixo dos panos?
 
-Como o git funciona debaixo dos panos?
+## Comandos internos do git
 
-## Estrutura de Grafos
 
 ```bash
 $ls -F1 .git
@@ -26,8 +26,6 @@ $find .git/objects
 
 $find .git/objects -type f
 ```
-
-Que tipo de armazenamento é esse?
 
 Antes de tudo, vamos persistir um objeto e reparar no que o GIT realiza depois.
 
@@ -117,5 +115,82 @@ Verificando logs
 ```bash
 $git log 06474
 
-commit 06474da697cff53c4a97080728d17a00b0c6db2 # Mais recente Author: henrique <hmelo2509@gmail.com> Date: Sun Dec 04 13:23:21 2022 -0300 commit 87281bbaa25e33bd0ff343fb49d746b8afcf9163 Author: henrique <hmelo2509@gmail.com> Date: Sun Dec 04 13:24:52 2022 -0300
+commit 06474da697cff53c4a97080728d17a00b0c6db2 # Mais recente 
+Author: henrique <hmelo2509@gmail.com> 
+Date: Sun Dec 04 13:23:21 2022 -0300 
+
+commit 87281bbaa25e33bd0ff343fb49d746b8afcf9163 
+Author: henrique <hmelo2509@gmail.com> 
+Date: Sun Dec 04 13:24:52 2022 -0300
 ```
+
+### Estrutura de grafos
+
+![[Pasted image 20230205193142.png]]
+
+### Referência para commit
+
+Executar toda hora `git log <hash>` não é tão eficiente. Como alternativa existem referências pra commit. 
+
+```bash
+$git update-ref refs/heads/test 06474da697cff53c4a97080728d17a00b0c6db2
+```
+
+```bash
+$find .git/refs
+
+.git/refs
+.git/refs/heads
+.git/refs/tags
+```
+
+>[!SUCCESS] Isso soa bem familiar né? Pois é, o nome disso é **Branch**
+
+#### HEAD
+
+>[!QUESTION] Como o Git automaticamente sabe que estamos querendo ver o log da main?
+>Por causa da HEAD
+
+```bash
+$cat .git/HEAD
+ref: refs/heads/master
+
+$git branch
+* main
+```
+
+>[!INFO]
+>Head é a referência simbólica da branch atual de trabalho. Manipular o HEAD significa modificar o ponteiro do primeiro commit
+
+Alterando a referência simbólica
+
+```bash
+$git symbolic-ref HEAD refs/heads/test
+```
+
+---
+## Comandos na Prática
+
+### add
+
+Hash-Object + Update-Index
+
+### commit
+
+Write-Tree + Commit-Tree
+
+### checkout
+
+Symbolic-Ref
+
+### reset
+
+Update-Ref
+
+### merge
+
+
+
+### cherry-pick
+
+### rebase
