@@ -201,7 +201,16 @@ Altera o ponteiro da branch
 
 ### merge
 
+##### fast-forward
 
+![[Pasted image 20230205201410.png]]
+![[Pasted image 20230205201424.png]]
+
+##### three-way
+
+![[Pasted image 20230205201501.png]]
+![[Pasted image 20230205201624.png]]
+![[Pasted image 20230205201641.png]]
 
 ### cherry-pick
 
