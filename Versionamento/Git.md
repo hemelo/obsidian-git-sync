@@ -321,3 +321,16 @@ Dessa forma, com `--force`, será possível.
 
 ### Limpeza local
 
+```bash
+$git checkout feature 
+$git rebase -i HEAD~3
+```
+
+![[07 Rebasing into Head-3.svg]]
+
+
+>[!HELP] Como conseguir o commit base da ramificação?
+>`git merge-base feature main`
+
+### Incorporando alterações _upstream_
+
