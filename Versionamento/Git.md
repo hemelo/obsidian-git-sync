@@ -345,3 +345,8 @@ $git rebase -i HEAD~3
 
 ### Como revisar um recurso com uma solicitação _pull_
 
+Solicitações de `pull` são um indício para não usar rebase. Assim que fizer pull, outros devs olharão para os seus commits, o que significa que eles são uma ramificação pública. Reescrever o histórico dele impossibilitaria que o Git e seus companheiros de equipe rastreassem qualquer commit de acompanhamento adicionado à funcionalidade.
+
+Quaisquer alterações de outros desenvolvedores precisam ser incorporadas com `merge`. Por esse motivo, geralmente é uma boa ideia limpar código com `rebase -i` antes de fazer `pull` _request_.
+
+
