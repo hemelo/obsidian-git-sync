@@ -8,20 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "52d9207e861b85b7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "c5c4347e20e6df64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Administração/Marketing.md",
+                "file": "Administração/Gestão de Qualidade.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "836a9da8812c64c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code Snippets/Typescript Snippets.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7af58feb0f5fb8a7",
@@ -138,6 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Code Snippets/Typescript Snippets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,6 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Code Snippets/Typescript Snippets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Code Snippets/Typescript Snippets.md"
+              }
             }
           },
           {
@@ -216,17 +224,17 @@
       "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "52d9207e861b85b7",
+  "active": "836a9da8812c64c3",
   "lastOpenFiles": [
-    "Administração/Gestão de Qualidade.md",
-    "Versionamento/Git.md",
     "Code Snippets/MYSQL Snippets.md",
-    "Untitled 1.canvas",
+    "Code Snippets/Typescript Snippets.md",
+    "Administração/Gestão de Qualidade.md",
+    "Administração/Marketing.md",
+    "Images/02 Merging main into the feature branh.svg",
+    "Versionamento/Git.md",
+    "Images/Untitled 1.canvas",
     "Code Design/Clean Code.md",
     "Cards/Smart Cards.md",
-    "Java/Lombok.md",
-    "Administração/Marketing.md",
-    "Pasted image 20230201215139.png",
-    "Desenvolvimento Seguro/PCI.md"
+    "Java/Lombok.md"
   ]
 }
