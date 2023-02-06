@@ -270,3 +270,26 @@ $find .git/refs
 
 Nunca usar `rebase` em ramificações públicas
 ![[05 Rebasing the main branch.svg]]
+
+Todos os outros desenvolvedores ainda estão trabalhando com a main oriignal. Como o rebase resulta em commits novos, o git vai pensar que o histórico da ramificação `main` divergiu de todas as outras pessoas. Para corrigir o problema seria necessário um `merge`. Ou seja, além do `rebase` teria um `merge`. Uma situação super confusa e desnecessária.
+
+>[!INFO] Antes de executar o rebase
+>Sempre pergunte se mais alguém está trabalhando na branch
+
+### Recolocação
+
+Se você tentar colocar a ramificação `main` do rebase em um repositório remoto, o Git não vai deixar você concluir a ação, porque ele entra em conflito com a ramificação `main` remota.
+
+```bash
+$git push --force 
+```
+
+Dessa forma, com `--force`, será possível.
+
+>[!IMPORTANT] Quando forçar push de rebase?
+>Subiu ramificação de funcionalidade privada em um repositório remoto e disse "Opa, não devia ter colocado isso na main. Use a atual no lugar dela"
+
+É importante que ninguém esteja trabalhando fora dos commits da versão original da ramificação de funcionalidade.
+
+
+
