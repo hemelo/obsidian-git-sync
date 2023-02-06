@@ -1,3 +1,6 @@
+Requisitos:
+- [[Introdução à criptografia|Noções de Criptografia]] [[Introdução à criptografia#^1d35eb|SHA]]
+
 >[!QUESTION] Como o git funciona debaixo dos panos?
 
 ## Comandos internos do git
@@ -266,6 +269,31 @@ $find .git/refs
 
 ![[03 Rebasing the feature branch into main.svg]]
 
+### Rebase interativo
+
+```bash
+$git checkout feature 
+$git rebase -i main
+
+pick 33d5b7a Message for commit #1 
+pick 9480b3d Message for commit #2 
+pick 5c67e61 Message for commit #3
+```
+
+Essa lista traz a definição exata de qual vai ser o aspecto do branch após execução do rebase. 
+Ao alterar de `pick` e/ou reordenar as entradas, é possível mudar como o histórico irá ficar.
+Dá para condensar dois ou mais commits em um único com `fixup`:
+
+```bash
+$git checkout feature 
+$git rebase -i main
+
+pick 33d5b7a Message for commit #1 
+fixup 9480b3d Message for commit #2 
+pick 5c67e61 Message for commit #3
+```
+
+![[04 Squashing a commit with an interactive rebase.svg]]
 ### Regras de Ouro
 
 Nunca usar `rebase` em ramificações públicas
@@ -291,5 +319,5 @@ Dessa forma, com `--force`, será possível.
 
 É importante que ninguém esteja trabalhando fora dos commits da versão original da ramificação de funcionalidade.
 
-
+### Limpeza local
 

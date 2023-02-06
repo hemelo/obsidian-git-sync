@@ -12,6 +12,8 @@ Duas chaves, uma pra criptação outra pra decriptação
 
 > Hash
 
+^1d35eb
+
 One-way functions
 
 - MD5, SHA-1, SHA-256
