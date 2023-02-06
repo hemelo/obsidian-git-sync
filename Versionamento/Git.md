@@ -334,3 +334,14 @@ $git rebase -i HEAD~3
 
 ### Incorporando alterações _upstream_
 
+>[!INFO]
+>Por padrão o `git pull` usa merge, mas é só usar `git pull --rebase`
+>
+
+
+![[08.svg]]
+![[09.svg]]
+
+
+### Como revisar um recurso com uma solicitação _pull_
+
