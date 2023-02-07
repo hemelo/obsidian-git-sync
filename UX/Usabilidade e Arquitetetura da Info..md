@@ -204,8 +204,21 @@ A persona tem detalhes mais ricos que podem facilitar a comunicação daquilo qu
 
 ### Casos de usos de personas
 
+>O  Tinder  também  fez  mudanças  em  seu  cadastro  depois  de  entender  um pouco melhor o perfil de seus usuários. Ainda não está disponível na versão do app brasileiro,  mas  a  partir  de  agora,os  usuários  poderão  especificar  melhor  sua identidade de gênero.Eles discutiram bastante o fluxo e a comunicação dessa etapa do cadastro para que atendesse à necessidade de todos.A escolha principal continua sendo entre “mulher” e “homem”, mas com a opção de especificar melhor o gênero
 
+>Depois  de  implantar  novos  serviços  como  uberX, uberPOOL,uberBAG, uberBIKE, oUber percebeu que a sua usabilidade estava ficando mais complicada, apesar desses serviços terem entrado para atender às necessidades de seus usuários (como naquela história da balança, lembra? Quanto mais ferramenta, mais difícil pode ser  a  usabilidade).Então  eles  fizeram  uma  revisão  de  arquitetura  e  layout  do  app, buscando uma experiência mais prática e simples. Facilitaram a escolha do tipo de serviço, colocaram mais ícones para melhorar o design e aprimoraram a criaçãode atalhos de acordo com o uso
 
+### Quando devo revisar as personas?
+
+- Mudança no negócio
+- Mudança no perfil dos usuários
+- Tempo
+
+### No que mais a persona pode contribuir?
+
+- Ajudar na área de marketing
+- Melhorar o discurso ou tom de voz da área de comunicação
+- Segmentar melhor seus dados para análise de comportamento dos usuários reais
 
 
 
