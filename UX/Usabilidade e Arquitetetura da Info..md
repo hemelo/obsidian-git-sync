@@ -120,4 +120,9 @@ Se o seu site for difícil de usar, difícil de ler, se o usuário tiver  dificu
 Momento  de  levantar  e  identificar  todo  o conteúdo existente no seu site
 
 - **Auditoria de conteúdo**
-- 
+
+O conteúdo deve ser avaliado para saber o quanto ele é útil, qualéo seu tom de voz e se deve mesmo entrar no site
+
+- **Agrupamento de informações**
+
+**Taxonomia**
