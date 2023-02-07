@@ -1,6 +1,6 @@
 
 
-# Prettify Interface Intersections
+# Merging Interfaces
 
 >[!DANGER] This is weird:
 
@@ -31,11 +31,11 @@ let data?: Intersected;
 >[!SUCCESS] This is useful:
 
 ```ts
-type Prettify<T> = {
+type Merge<T> = {
 	[K in keyof T]: T[K];
 } & {}
 
-export type Result = Prettify<Intersected>;
+export type Result = Merge<Intersected>;
 ```
 
 ```ts
@@ -44,12 +44,16 @@ let data?: Result;
 // Hover above would show this terrible thing:
 //
 // type Result = {
-//
-}
+//    a: number;
+//    b: number;
+//    c: number;
+// }
 ```
 
 >[!IMPORTANT] But this is awesome:
 
-```
+```ts
+
+type ExpandRecursively<T>
 
 ```
