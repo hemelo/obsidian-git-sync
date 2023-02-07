@@ -259,11 +259,71 @@ Tudo bem colocar um carousel com opiniões sobre seu site/negócio. Mas que tal 
 
 ## Protótipo
 
+Aplicativo para teste de público-alvo/personas, ou uma representação como:
+
 ### Wireframe
 
 Basicamente, um **rascunho**
 
+![[Pasted image 20230207193705.png]]
 
+### Mockup
 
+![[Pasted image 20230207193752.png]]
 
+# Por onde começa o Design
+
+- Defina o conteúdo
+- Siga os princípios e padrões de design
+
+>[!INFO]
+>No caso de aplicativos, hádiferenças entre os comportamentos comuns para apps Android e iOS. Então cada um deles tem seus patterns que devem ser respeitados para facilitara usabilidade
+
+## Acessibilidade
+
+- Tamanho e estilo de fonte
+- Cores e contraste
+- Imagens, vídeo e áudio
+
+### Usuário
+
+- Idade
+- Habilidade cognitiva
+- Audção e visão
+- Compreensão da língua e linguagem
+- Dispositivo, tecnologia e conexão
+
+## Dispositivo
+
+- Mobile, desktop ou app?
+
+Dá para construir um design para todos, mas sempre levando em consideração onde está a maior quantidade de acessos
+
+### Responsividade
+
+- O site responsivo é uma versão única de site que se adapta aos diferentes tamanhos  de  tela,  seja  desktop,  tablet  ou  celular.
+
+- Conforme  o  dispositivo,  os elementos  da  tela  são  reposicionados  para  facilitar  a  leitura  e  aproveitamento  do espaço
+
+>[!INFO] O Google  gosta  de  sites  responsivos porque  privilegiam  a experiência do usuário
+
+### Site mobile
+
+- O site mobile é uma segunda versão do seu site, feito só para o acesso por celular, ou seja, ele não vai funcionar bem em um desktop. 
+
+- A parte boa de fazer um site mobile é que ele pode ser construído pensando apenas na experiência no celular, o que vai deixar o site muito mais amigável e útil para seus usuários
+
+- A parte ruim dele é que vai exigir mais da atualização e manutenção, por ser uma versão diferente dodesktop
+
+### Aplicativo mobile
+
+Um  app,  geralmente, tem  a  função  de  engajar  o  usuário  e  isso  acontece porque ele oferece uma experiência muitomais rica.
+
+As vantagens de um app é quenele é possível usar ferramentas quepodem torná-lo muito mais personalizado, como GPS, câmera, notificações efunções offline
+
+O  “touch”  também  torna  muito  mais  fácil  o  clique  ou  qualquer  gesto  de navegação e a disponibilidade, o fato de estar sempre perto e fácil de achar favorece muito mais o uso espontâneode um app. 
+
+>[!DANGER] Depende muito do seu produto e do seu público, então analise bem antes de investir
+>
+>Não é barato ter um app. Isso porque há diferenças de comportamentos e design entre iOS, Android ou Windows Phone, então é preciso personalizar cada um deles, e isso leva tempo e usa recursos do seu time
 
