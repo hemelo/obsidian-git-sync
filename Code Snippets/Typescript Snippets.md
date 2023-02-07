@@ -127,4 +127,4 @@ type MergedAB = DeepMergeTwoTypes<A, B>
 ```
 
 [Fonte e Demonstração](https://dev.to/svehla/typescript-how-to-deep-merge-170c) 
- 
+ - [ ] 
