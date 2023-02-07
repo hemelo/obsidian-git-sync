@@ -220,5 +220,9 @@ A persona tem detalhes mais ricos que podem facilitar a comunicação daquilo qu
 - Melhorar o discurso ou tom de voz da área de comunicação
 - Segmentar melhor seus dados para análise de comportamento dos usuários reais
 
+# Protótipos e Design
+
+## Design Persuasivo
+
 
 
