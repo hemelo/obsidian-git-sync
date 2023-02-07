@@ -93,6 +93,31 @@ As telas do seu produto precisam ser simples e conter somente o que o usuário r
 
 Mesmo com todo o cuidado, seu usuário pode encontrar obstáculos para cumprir sua tarefa usando seu produto. Então,é importante que as mensagens de erro sejam claras, de maneira  que as pessoas consigam consertar rapidamente o erro cometidoe, assim, seguir adiante
 
->[!DANGER] Exibição de erros em formulários
+>[!SUCCESS] Exibição de erros em formulários
 >Exibir alerta de senha inválida
 
+>[!DANGER]
+É muito comum apps e sites exibirem mensagens técnicas como "erro na conexão com banco de dados" ou "serviço indisponível”. Isso não é legal. 
+O usuário não entende e ainda pensa que osite é cheio de  erros.  O  ideal  é deixar  uma  linguagem simples  e,  sempre  que  possível,  alguma  instrução  para  o usuário. Dependendo do erro, da situação e da importância daquela tarefa, você pode surpreender e deixar uma opção para seu usuário acessar o atendimento ao cliente
+
+## Documentação e ajuda
+
+O ideal é que tudo em seu site ou aplicativo possa ser feito de forma bem intuitiva, mas em alguns casos é preciso oferecer informação ou ajuda para seus usuários. Isso amenizará qualquer impacto que uma dúvida possa ter quando ele pretende concluir alguma tarefa
+
+## Síntese
+
+Se o seu site for difícil de usar, difícil de ler, se o usuário tiver  dificuldade  para  encontrar  o  que  ele  precisa  ou  não  conseguir  atingir  o seu objetivo, ele simplesmente sairáe não voltará mais. Existem  muitos  sites  de  produtos  e serviços, e se o usuário não conseguir usar o seu, certamente irápara outro. E muito provavelmente isso já aconteceu com você, não é?
+
+# Arquitetura da Informação
+
+- Identificação e definição do conteúdo e funcionalidades do site
+- Organização, estrutura e nomenclatura do conteúdo
+
+>[!HELP] Quando  você  desenha  o  mapa  de  um  site,  por  exemplo,  você  está definindo como seu conteúdo vai ser agrupado e apresentado para seu usuário
+
+- **Inventário de conteúdo**
+
+Momento  de  levantar  e  identificar  todo  o conteúdo existente no seu site
+
+- **Auditoria de conteúdo**
+- 
