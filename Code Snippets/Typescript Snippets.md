@@ -28,7 +28,7 @@ let data?: Intersected;
 // }
 ```
 
->[!SUCCESS] This is useful:
+>[!HELP] This is useful:
 
 ```ts
 type Merge<T> = {
@@ -50,7 +50,8 @@ let data?: Result;
 // }
 ```
 
->[!IMPORTANT] But this is awesome:
+>[!STAR] This is better:
+
 
 ```ts
 
@@ -62,3 +63,20 @@ type ExpandRecursively<T>
     : T;
 
 ```
+
+```ts
+type Intersected = {
+    a: number;
+} & {
+    data: { id: string, title: string } ;
+} & {
+    [x: string]: string;
+} & {
+	(..args: unknown[]): unknown; // This wouldn't appears on below type
+}
+
+type Merged = ExpandRecursively<Intersected>;
+```
+
+>[!SUCCESS] But this is the greatest
+
