@@ -176,7 +176,36 @@ De  forma  bastante  coerente  e  lógica, essa é a hora de agrupar o conteúdo
 >Definição ampla do público qwue se interessa pelo seu produto. Não se refere a algúem específico. Não aborda os hábitos do usuário
 
 >[!SUCCESS] Persona
->Definição de cliente real, de forma mais humanizada. Faz refer^Ç
+>Definição de cliente real, de forma mais humanizada. Faz referência a uma personagem específica. Aboreda detalhes dos seus hábitos ou comportamento
+
+A persona tem detalhes mais ricos que podem facilitar a comunicação daquilo que é mais relevante para seus usuários, daquilo que eles realmente precisam saber ou fazer para atingir seus objetivos.
+
+>[!HELP]
+>Nem todo produto conta com apenas uma persona. É comum ter negócios com mais de uma persona
+
+
+## Como criar uma persona
+
+- Basear em dados de pessoas reais
+- Melhor que seja feito em equipe
+- Agrupar por características comuns
+
+### A criação
+
+- Nome
+- Idade
+- Nível de escolaridade
+- Ocupação
+- Meios de comunicação
+- Objetivos
+- Desafios
+- Como podemos ajudar
+- Foto
+
+### Casos de usos de personas
+
+
+
 
 
 
