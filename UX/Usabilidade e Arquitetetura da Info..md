@@ -224,5 +224,46 @@ A persona tem detalhes mais ricos que podem facilitar a comunicação daquilo qu
 
 ## Design Persuasivo
 
+Design que  tem  a  função  de  fazer  seu  usuário  encontrar  o  que  ele precisa  e  gostar  tanto  de  estar ali,  que  isso  vai  ser  convertido  em  leads,visitas, vendas,  cadastros  e  todas  aquelas  coisas  maravilhosas  que  você  espera  que aconteça.
+
+Se a intenção é motivar e direcionar seus usuários, eles precisam sesentir segurose  a  interface  (o  que  o  usuário  vê) faráesse  papel.  Então, será  preciso consideraros quatro fatores a seguir, na hora de pensar no design do seu produto.
+
+### Qualidade
+
+Não  adianta  inventar coisas e prejudicar a sua usabilidade, como dar nomes exóticos para suas categorias ou  usar  ícones  totalmente  desconhecidos  para  representar  seus  produtos.  
+
+>[!IMPORTANT] Seu usuário precisa saber onde clicar
+
+Quanto mais informação e mais cores na tela = Pior
+
+### Informação, fotos e vídeos atualizados
+
+- Além de o site precisar conter todo o seu portfólio,seusprodutosou serviços devem estar bem explicadose ilustradospara que eles sintam essa confiança. 
+
+- Essa também é uma forma de mostrar que você realmente quer ajudar seus usuários a entender o que está sendo oferecido e, assim, fazer uma boa escolha.
+
+- As fotos ou vídeos precisam ter uma boa qualidade
+
+>[!INFO] 
+>O que está no site deve ser constantemente atualizado. Informação e imagens ultrapassadas com certeza sóvão causar dúvidas e descrença.
+
+### Jogo Aberto
+
+Não adianta esconder preço, deixar para exibir o prazo de entrega só no final da compra ou não deixar claro qual é a política de troca. E se puder fazer tudo isso sem exigir dados desnecessários, melhor ainda.
+
+>[!IMPORTANT] Usuário gosta mesmo é de transparência
+
+### Carousel de Opiniões
+
+Tudo bem colocar um carousel com opiniões sobre seu site/negócio. Mas que tal colocar link de ReclameAqui e publicações reais em redes sociais?
+
+## Protótipo
+
+### Wireframe
+
+Basicamente, um **rascunho**
+
+
+
 
 
