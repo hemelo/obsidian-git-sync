@@ -125,4 +125,58 @@ O conteúdo deve ser avaliado para saber o quanto ele é útil, qualéo seu tom 
 
 - **Agrupamento de informações**
 
-**Taxonomia**
+De  forma  bastante  coerente  e  lógica, essa é a hora de agrupar o conteúdo por temas similares ou relação entre si
+
+- **Taxonomia**
+
+É  a  nomenclatura  que  você  dá  para  os  agrupamentos  que você crioue deve contemplar todo o conteúdo do site
+
+- **Informações descritivas**
+
+É  quando  você  define  metadados  úteis  que poderão ser usados para gerar listas de "conteúdo relacionado" ou outros componentes de navegação que vão auxiliar os usuários a encontrar o que eles precisam
+
+#### Caso Americanas
+
+>[!INFO] Categorização de produtos
+
+![[Pasted image 20230207183528.png]]
+
+## Identificando problemas
+
+- Baixo tráfego em determinada categoria
+- Conversão baixa
+- Altas taxas de rejeição
+- Baixo número de entradas
+- Alto volume de pesquisas
+
+## Melhorando UX
+
+- Equipe Multidisciplinar
+- Entender usuários
+- Seguir boas práticas de design
+- Não reinventar a roda
+- Não encher linguiça
+- Fazer testes
+
+# Para quem você está criando sua UX?
+
+- Você não é seu usuário
+- Se insistir em fazer o que ACHA que é bom para o seu usuário, estará correndo o risco de errar feio
+
+## Por que precisa conhecer o seu usuário?
+
+- Será mais fácil aprimorar o desenvolvimento do produto
+- Vai melhorando o conteúdo
+- Vai descobrir quem são os melhores clientes
+- Vai ver impacto nos resultados
+
+### A diferença entre público-alvo e persona
+
+>[!INFO] Público Alvo
+>Definição ampla do público qwue se interessa pelo seu produto. Não se refere a algúem específico. Não aborda os hábitos do usuário
+
+>[!SUCCESS] Persona
+>Definição de cliente real, de forma mais humanizada. Faz refer^Ç
+
+
+
