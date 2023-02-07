@@ -82,3 +82,17 @@ Você deve se lembrar que o seu site pode ser acessado por pessoas com perfis di
 >[!INFO] Arquivar um email
 >No  Gmail  eu tenho duas  formas  de  arquivar uma  mensagem.  Uma delas é  por  meio  de  um  atalho,  movendo  o  card  da  mensagem  para  esquerda. Provavelmente, essa opção é mais usada por pessoas mais experientes e habituadas com esse tipo de comportamento. A outra maneira é entrar na mensagem e escolher a opção de “arquivar”, no topo da tela. Essa deve ser a opção de pessoas menos experientes no uso de sites ou apps
 
+## Design Minimalista
+
+As telas do seu produto precisam ser simples e conter somente o que o usuário realmente precisa saber ou fazer. 
+
+>[!IMPORTANT]
+>Quanto mais informação desnecessária, maiores são as chances das pessoas se perderem e não conseguirem cumprir com o objetivo delas
+
+## Diagnóstico de erros
+
+Mesmo com todo o cuidado, seu usuário pode encontrar obstáculos para cumprir sua tarefa usando seu produto. Então,é importante que as mensagens de erro sejam claras, de maneira  que as pessoas consigam consertar rapidamente o erro cometidoe, assim, seguir adiante
+
+>[!DANGER] Exibição de erros em formulários
+>Exibir alerta de senha inválida
+
