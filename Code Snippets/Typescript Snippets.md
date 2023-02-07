@@ -54,6 +54,11 @@ let data?: Result;
 
 ```ts
 
-type ExpandRecursively<T>
+type ExpandRecursively<T> 
+    = T extends Record<string, unknown> | Record<string, unknown>[] 
+    ? T extends infer 0 
+    ? { [K in keyof 0]: ExpandRecursively<0[K] }
+    : never
+    : T;
 
 ```
