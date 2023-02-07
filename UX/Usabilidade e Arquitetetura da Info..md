@@ -327,3 +327,5 @@ O  “touch”  também  torna  muito  mais  fácil  o  clique  ou  qualquer  ge
 >
 >Não é barato ter um app. Isso porque há diferenças de comportamentos e design entre iOS, Android ou Windows Phone, então é preciso personalizar cada um deles, e isso leva tempo e usa recursos do seu time
 
+## Design Mobile
+
