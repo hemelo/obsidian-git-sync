@@ -329,3 +329,12 @@ O  “touch”  também  torna  muito  mais  fácil  o  clique  ou  qualquer  ge
 
 ## Design Mobile
 
+Motivação: Mundo cada vez mais mobile first
+
+- Targets amplos e óbvios
+
+Se a zona de clique ficar pequena demais ou perto demais uma da outra, seu usuário pode ter problemas para cumprir sua missão e vai desistir muito rápido do que desistiria no desktop
+
+>[!SUCCESS] 1cm x 1cm de área de clique
+
+
