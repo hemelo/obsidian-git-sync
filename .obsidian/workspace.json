@@ -55,8 +55,10 @@
             "id": "93d0ba90cc74948e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "Images/Pasted image 20230207183528.png"
+              }
             }
           }
         ],
@@ -126,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Images/Pasted image 20230207183528.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,6 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Images/Pasted image 20230207183528.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Images/Pasted image 20230207183528.png"
+              }
             }
           },
           {
@@ -206,12 +212,12 @@
   },
   "active": "86b7b9cfd81c876f",
   "lastOpenFiles": [
+    "Typescript/Typescript Config.md",
+    "Code Snippets/Typescript Snippets.md",
     "UX/Introdução a UX.md",
     "Versionamento/Git.md",
     "Code Snippets/MYSQL Snippets.md",
-    "Code Snippets/Typescript Snippets.md",
     "Fonte.md",
-    "Typescript/Typescript Config.md",
     "Administração/Gestão de Qualidade.md",
     "Administração/Marketing.md",
     "Images/02 Merging main into the feature branh.svg",
