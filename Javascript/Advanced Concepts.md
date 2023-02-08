@@ -13,3 +13,15 @@ function *generator {
 	yield 3
 }
 ```
+
+## Usos
+
+```js
+const g = generator ();
+g.next();
+```
+
+```js
+const g = generator();
+console.log([...g])
+```
