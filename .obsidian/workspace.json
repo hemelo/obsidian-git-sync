@@ -55,30 +55,6 @@
             "id": "93d0ba90cc74948e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UX/Introdução.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1e29e745797e328",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Versionamento/Git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82c2ec51150bccbd",
-            "type": "leaf",
-            "state": {
               "type": "graph",
               "state": {}
             }
@@ -134,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7af58feb0f5fb8a7",
@@ -151,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UX/Introdução.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +153,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UX/Introdução.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,9 +163,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "UX/Introdução.md"
-              }
+              "state": {}
             }
           },
           {
@@ -233,17 +204,17 @@
       "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "93d0ba90cc74948e",
+  "active": "86b7b9cfd81c876f",
   "lastOpenFiles": [
+    "UX/Introdução a UX.md",
+    "Versionamento/Git.md",
     "Code Snippets/MYSQL Snippets.md",
-    "UX/Introdução.md",
     "Code Snippets/Typescript Snippets.md",
     "Fonte.md",
     "Typescript/Typescript Config.md",
     "Administração/Gestão de Qualidade.md",
     "Administração/Marketing.md",
     "Images/02 Merging main into the feature branh.svg",
-    "Versionamento/Git.md",
     "Images/Untitled 1.canvas"
   ]
 }

@@ -666,4 +666,51 @@ Reunião de usuários para discussão bem definida
 	- [[Gestão de Qualidade#Indicadores de Desempenho|Indicadores]]
 
 
+---
 
+# Ferramentas
+
+## Por que trackear e identificar usuários?
+
+> Para ter alguns UX insights
+
+- Quantos devices os nossos usuários costumam usar para acesar nosso conteúdo?
+- Eles estão completando tarefas com devices diferentes?
+- Qual conteúdo fideliza mais nossos usuários e aumenta a frequência deles no site ou seu tempo médio?
+- Quais ações dos usuários os levam para o final de seu funil de conversão?
+- Eventos
+	- Downloads
+	- Play e pause
+	- Clicks em 
+		- banners de publicidade
+		- categorias e tags
+		- artigos relacionados
+		- detalhes do produto
+
+
+> Usando o tracking
+
+- Se muitas pessoas começam a ver o vídeo, mas não terminam de assistir. Isso significa que o vídeo precisa ser melhorado e tornar mais atraente para os usuários
+- Se a maioria nem começa a ver o vídeo, isso significa que você precisa rever se ele está no lugar certo, se está chamativo, se tem o devido destaque e se aquele momento é o melhor pra exibí-lo
+
+### Formas
+
+| Método  | +        | -                            |
+| ------- | -------- | ---------------------------- |
+| Cookie  | Fácil    | Atrelado a um navegador e IP |
+| User ID | Não muda | Cadastro                     |
+| Email   | Fácil    | Pode mudar                   | 
+
+## SEO
+
+s ferramentas  de  tráfego  e  SEOte  ajudam  a  entender  o  que  seus usuários  estão  buscando  e,  com  isso,  você consegue adequar  e  criar  novos conteúdos   que   possam   atrair   mais   audiência   orgânica   para   seu   site.   Essas ferramentas  sugerem  palavras  amplas  e long  tailse,  junto  com  elas,  uma  ideia  de quantidade  de  buscas  mensais  e  uma  escala  de  dificuldade  para  posicionamentonas  buscas  do  Google.Elas  também  dão informações  relacionadas a backlinks e tudo que possa contribuir com ações de SEO.
+
+## Web Analytics e In-Page Analytics
+
+- Medição de tráfego e sua origem
+- Acompanhamento de interações
+- Customização de dados
+- Análise de histórico
+
+![[Pasted image 20230207224528.png]]
+![[Pasted image 20230207224542.png]]
