@@ -60,9 +60,33 @@
                 "file": "Images/Pasted image 20230207183528.png"
               }
             }
+          },
+          {
+            "id": "b98137089907356e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Typescript/Advanced Concepts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8fd36f30d7066f56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/Module Expressions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -128,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Images/Pasted image 20230207183528.png",
+                "file": "Javascript/Module Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Images/Pasted image 20230207183528.png",
+                "file": "Javascript/Module Expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Images/Pasted image 20230207183528.png"
+                "file": "Javascript/Module Expressions.md"
               }
             }
           },
@@ -210,8 +234,10 @@
       "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "86b7b9cfd81c876f",
+  "active": "8fd36f30d7066f56",
   "lastOpenFiles": [
+    "Typescript/Advanced Concepts.md",
+    "Images/Pasted image 20230207183528.png",
     "Typescript/Typescript Config.md",
     "Code Snippets/Typescript Snippets.md",
     "UX/Introdução a UX.md",
@@ -219,8 +245,6 @@
     "Code Snippets/MYSQL Snippets.md",
     "Fonte.md",
     "Administração/Gestão de Qualidade.md",
-    "Administração/Marketing.md",
-    "Images/02 Merging main into the feature branh.svg",
-    "Images/Untitled 1.canvas"
+    "Administração/Marketing.md"
   ]
 }
