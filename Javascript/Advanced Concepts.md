@@ -72,12 +72,29 @@ records = recordSet();
 #### Take
 
 ```js
-const take = (n) => function *(iteravel) {
+const take = (n) => function *(iterable) {
 	let i = 0
 
-	for (let elemento )
+	for (let element of iterable) {
+		if (i >= n) return
+		yield element
+		i++
+	}
 } 
 ```
+
+#### Repeat
+
+```js
+function * repeat(value) {
+	while (true)
+		yield value
+}
+```
+
+#### Scan
+
+
 
 ### Contador de promises
 
