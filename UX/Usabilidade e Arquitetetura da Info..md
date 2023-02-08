@@ -108,6 +108,7 @@ O ideal é que tudo em seu site ou aplicativo possa ser feito de forma bem intui
 
 Se o seu site for difícil de usar, difícil de ler, se o usuário tiver  dificuldade  para  encontrar  o  que  ele  precisa  ou  não  conseguir  atingir  o seu objetivo, ele simplesmente sairáe não voltará mais. Existem  muitos  sites  de  produtos  e serviços, e se o usuário não conseguir usar o seu, certamente irápara outro. E muito provavelmente isso já aconteceu com você, não é?
 
+---
 # Arquitetura da Informação
 
 - Identificação e definição do conteúdo e funcionalidades do site
@@ -220,6 +221,7 @@ A persona tem detalhes mais ricos que podem facilitar a comunicação daquilo qu
 - Melhorar o discurso ou tom de voz da área de comunicação
 - Segmentar melhor seus dados para análise de comportamento dos usuários reais
 
+---
 # Protótipos e Design
 
 ## Design Persuasivo
@@ -329,7 +331,7 @@ O  “touch”  também  torna  muito  mais  fácil  o  clique  ou  qualquer  ge
 
 ## Design Mobile
 
-Motivação: Mundo cada vez mais mobile first
+> Motivação: Mundo cada vez mais mobile first
 
 - Targets amplos e óbvios
 
@@ -447,4 +449,90 @@ Vale a  pena  planejar  alguns steps para  mostrar o  carregamento  de  página.
 
 
 ### Cadastro/Login
+
+![[Pasted image 20230207210803.png]]
+
+### Formulários
+
+Ninguém gosta de preencher formulário. Principalmente no celular!
+
+Alternativas:
+- Preenchimento de dados automáticos
+- Uso de dropdowns
+
+>[!INFO]
+>Evite usar legenda dentro do campo que desaparececom o preenchimento. Isso acaba forçando o usuário a ter que lembrar oquedeve ser digitado naquele campo
+
+![[Pasted image 20230207211110.png]]
+
+
+### Footer
+
+Não dá pra manter o footer  tradicional do desktop porque ele ocupa muito espaço. Uma opção é escolher alguns itens mais importantes e colocar no menu.
+
+![[Pasted image 20230207211135.png]]
+
+Como pode ver, acaba ocupando muito espaço neste escroll e até briga com as opções da barra inferior
+
+### Campo de pesquisa
+
+![[Pasted image 20230207211423.png]]
+![[Pasted image 20230207211434.png]]
+
+Normalmente no topo da tela. É bom que ele exista para que as pessoas possam encontrar o que precisam, em qualquer parte do site ou app
+
+De qualquer forma, ao acessar osite, já é possível mostrar alguns itens, mas é importante que eles tenham alguma relevância para seus usuários
+
+Deixe sempre uma opção ou sugestão de busca para eles
+
+>[!WARNING] Nunca direcione para uma página 404
+
+##### Filtros
+
+Quando seu resultado de busca oferece muita informação, é preciso dar ao usuário a opção de filtrar
+
+Cuidado ao usar filtros representados   apenas   por   ícones,   sem   textos,   porque   precisam ser  muito autoexplicativos 
+
+- Os filtros podem funcionar de duas formas: 
+	- o usuário seleciona tudo o que deseja e clica para filtrar, atualizando o resultado da busca
+	- o usuário ver o  resultado  mudar  a cada  filtro  acrescentado (talvez uma  opção  mais perigosa,  porque  recarrega  muitas  vezes  a  página  e  pode  parecer  mais  lento). 
+
+Independentemente da opção, deve-se criarum espaço para mostrar os filtros usados para chegar àquele resultado e, assim, permitir alteração,se necessário
+
+### Mapa
+![[Pasted image 20230207211821.png]]
+
+>[!TIP] Quando o usuário vê mapa na tela, a sua expectativa é que possa manipular ele
+
+### Notificações
+
+ Funcionam como um aviso para o usuário, incentivando seu engajamento por meio de informações que consideram importantes, como uma nova solicitação de amizade ou um novo conteúdo do seu interesse 
+ 
+ A notificação precisa ser clara e estar o mais perto possível do que se refere
+![[Pasted image 20230207212002.png]]
+
+### [[#Heurísticas de Nielsen#Flexibilidade e eficiência de uso|Gestos Ocultos]]
+
+Por exemplo: no WhatsApp há duas formas  de apagar uma conversa. Uma delas é deslizar para a esquerda, em cima da conversa que você quer apagar (esse é o gesto oculto), você consegue clicar em “mais” e em seguida aparece a opção de apagar   ou   limpar   a   conversa. Também   pode   ser   feito dentro   da   conversa, independente de um gesto oculto         
+
+### Legibilidade
+
+- O conteúdo deve ser fácil e rápido de ler
+- Os espaços devem ser bem aproveitados
+- Foto à esquerda, texto à direita
+- Fontes diferentes apenas para títulos e contrastes
+
+---
+# Pesquisas e dados
+
+>Motivação: UX não pode ser só feeling, precisa ter base em dados, testes e boas análises de resultado
+
+##### Por que usar pesquisas e dados para melhorar sua UX?
+
+- Eliminar projetos desnecessários
+- Diminuir a tomada de decisão baseada em opinião pessoal
+- Possibilitar levantamento de hipóteses e testes
+
+## Dados Quantitativos vs Qualitativos
+
 
