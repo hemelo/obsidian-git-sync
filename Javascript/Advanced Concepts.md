@@ -67,6 +67,18 @@ function* recordSet() {
 records = recordSet();
 ```
 
+### Funções Utilitárias
+
+#### Take
+
+```js
+const take = (n) => function *(iteravel) {
+	let i = 0
+
+	for (let elemento )
+} 
+```
+
 ### Contador de promises
 
 ```js
