@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Module Expressions.md",
+                "file": "Javascript/Advanced Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Module Expressions.md",
+                "file": "Javascript/Advanced Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Module Expressions.md",
+                "file": "Javascript/Advanced Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Module Expressions.md"
+                "file": "Javascript/Advanced Concepts.md"
               }
             }
           },
@@ -236,6 +236,7 @@
   },
   "active": "8fd36f30d7066f56",
   "lastOpenFiles": [
+    "Javascript/Module Expressions.md",
     "Typescript/Advanced Concepts.md",
     "Images/Pasted image 20230207183528.png",
     "Typescript/Typescript Config.md",
@@ -244,7 +245,6 @@
     "Versionamento/Git.md",
     "Code Snippets/MYSQL Snippets.md",
     "Fonte.md",
-    "Administração/Gestão de Qualidade.md",
-    "Administração/Marketing.md"
+    "Administração/Gestão de Qualidade.md"
   ]
 }
