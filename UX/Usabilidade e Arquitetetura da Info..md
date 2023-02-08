@@ -337,4 +337,114 @@ Se a zona de clique ficar pequena demais ou perto demais uma da outra, seu usuá
 
 >[!SUCCESS] 1cm x 1cm de área de clique
 
+- Otimização de imagens
+
+Cuidado com pacote de dados
+
+### Fácil de clicar não significa fácil de ver
+
+É sempre bom levar em conta o mapa de calor da visão e dos dedos na sua aplicação/site.
+
+#### Campo de visão
+
+![[Pasted image 20230207202844.png]]
+
+
+
+#### Zona do clique
+
+![[Pasted image 20230207202510.png]]
+
+![[Pasted image 20230207202552.png]]
+
+![[Pasted image 20230207202736.png]]
+
+>[!INFO] Lembre-se
+>O dedo mais importante é o polegar
+
+### Navegação por barra, menu e ícones
+
+Tudo tem a sua ordem eprecisamos ajudar os usuários a se encontrarem no site  ou  app.  Então,  nesse  sentido,  as  barras  e  menu  de  navegação têm uma importante função.Vamos falar um pouco sobre elas
+
+
+#### Action Bar
+
+Essa  barra  fica no  topo  da  tela.  Éaquele  lugar  que  dever  ser  bem  fácil  de reconhecer e lembrar como usar. Nela geralmente fica o título do app e botões como “voltar”, “buscar” ou  ainda  o  símbolo  do  “carrinho”  para  um  e-commerce. 
+É  bem arriscado querer colocar outros tipos de funções que não sejam comuns a esse lugar, porque as pessoas podem se confundir
+
+#### Tab Bar
+
+É aquela que fica no <font color="#f79646">topo (para Android)</font> ou na <font color="#0070c0">parte inferior da tela (para iOS)</font>. Nela ficam os itens mais importantes para a navegação do usuário, então seusitens devem ser muito bem escolhidos. 
+
+- Os ícones
+	- precisam ser comuns à maioria dos apps ou   pelo   menos   similares   aos   de   seus   concorrentes. 
+	- devem descrever visualmente a função do botão
+	- fazer com que seu usuário vai conseguir identificar mais rapidamente  o  que  significa  cada  um  deles 
+
+>[!IMPORTANT] menos  adivinhação  =  menos  carga cognitiva = desempenho mais rápido do usuário
+
+>[!INFO]
+>Sempre que possível, opte por usar ícone e legenda. Ícones sozinhos dificilmente performam melhor que textos.
+
+### Menu e lista de ícones
+
+Se usar ícones dentro de um menu ou lista, deve ser bem contextualizado
+
+Se usar ícones para tudo, tudo ganha destaque. Onde tudo se destaca, nada se destaca
+
+>[!WARNING] Se usar ícones para tudo, tudo ganha destaque. Onde tudo se destaca, nada se destaca
+
+### Ações claras
+
+ - Se o seu layout é bom, ele não precisa de explicação! 
+ - Se os ícones precisam ser explicados, refaça ou use textos
+
+![[Pasted image 20230207204218.png]]
+
+Textos são úteis para novos comportamentos ou funcionalidades na aplicação
+
+
+### Interações
+
+#### Botões
+![[Pasted image 20230207204348.png]]
+#### Links
+
+![[Pasted image 20230207204446.png]]
+
+#### Slides
+
+![[Pasted image 20230207204548.png]]
+
+>[!IMPORTANT] Indicadores visuais são melhores que númericos em slides
+
+#### Scroll
+
+Sempre deixe algo picotado, para deixar o usuário curioso em saber pelo conteúdo particionado
+
+![[Pasted image 20230207204735.png]]
+
+#### Hierarquia
+![[Pasted image 20230207205023.png]]
+
+### Performance
+
+A percepção  de  performance  se  dá  pelo  tempoe representação de carregamento  de  telas,  transições  e  animações
+
+#### Carregamento da página
+
+Vale a  pena  planejar  alguns steps para  mostrar o  carregamento  de  página.
+
+>[!ERROR] Tela branca
+>O que  não  é  legal  acontecer  é  ficar  tudo  em  branco, esperando   [[#Mantenha o status visível|carregamento total]], pois isso pode dar a sensação de que o site está lento demais
+
+![[Pasted image 20230207205325.png]]
+
+
+### Feedback
+![[Pasted image 20230207205408.png]]
+![[Pasted image 20230207205613.png]]
+
+
+### Cadastro/Login
 
