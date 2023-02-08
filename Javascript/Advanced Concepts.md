@@ -86,7 +86,7 @@ const take = (n) => function *(iterable) {
 #### Repeat
 
 ```js
-function * repeat(value) {
+function *repeat(value) {
 	while (true)
 		yield value
 }
@@ -94,7 +94,17 @@ function * repeat(value) {
 
 #### Scan
 
+```js
+function *scan(reducer, initial, iterable) {
+	let result = initial;
+	yield result;
 
+	for (const current of iterable) {
+		result = reducer(result, current);
+		yield result;
+	}
+}
+```
 
 ### Contador de promises
 
