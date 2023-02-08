@@ -1,3 +1,77 @@
+
+## Conceitos
+
+### Design Thinking
+
+>Foco no Cliente
+
+- Estética + Usabilidade
+- Conhecer o usuário
+- Descobrir oportunidades
+- Levantar ideias
+- Protótipos
+- Testes
+- Implementação
+
+![[Pasted image 20230207221419.png]]
+
+### Lean UX
+
+- Trabalhar com MVP
+- Ser ágil na criação de protótipos
+- Validação com usuários
+- Definir e acompanhar métricas
+
+### Agile UX
+
+- Time 
+- Priorizar o produto
+- Foco no usuário
+- Flexibilidade
+
+![[Pasted image 20230207221719.png]]
+
+### Product Design Sprint
+
+1. Antes de iniciar
+
+Definir qual a dor que precisa ser resolvida, qual é o desafio e qual será o time que vai participar desse processo.
+
+2. Dia 1
+
+- Levantamento de dados 
+	- Qual é o desafio?
+	- Por que ele existe?
+	- O que o time sabe sobre isso?
+	- Qual será, de fato, o ponto a ser atacado para a solução deste problema?
+	- O que os usuários dizem sobre isso?
+
+3. Dia 2
+
+- Foco na solução
+	- Quais são as hipóteses e as ideias?
+- Filtragem de ideias
+- Separar usuários para teste em um dia próximo
+
+4. Dia 3
+
+- Extração de soluções
+- Base sólida para a criação do protótipo até o fim do dia
+
+5. Dia 4
+
+- Criar protótipo navegável
+- Criar roteiro de testes para os usuários
+	- Quais tarefas eles devem cumprir?
+	- Quais dúvidas precisam responder?
+
+6. Dia 5
+
+- Validação
+- Como os usuários estão usando o protótipo
+
+# Usabilidade e Arquitetetura da Info.
+
 1) **Aprendizagem:** seus usuários conseguem cumprir tarefas básicas no seu site logo na primeira vez que eles acessam?
    
 2) **Eficiência:**  agora  que  eles  já  aprenderam  a  usar  seu  produto,  eles conseguem fazer isso com rapidez?
@@ -573,4 +647,23 @@ Exemplo: <font color="#0070c0">Os usuários se frustram porque querem ver os pre
 	- de feedback
 
 >[!SUCCESS] É uma boa maneira ter um canal de comunicação em aberto, utilizando sua base de emails para disparar as pesquisas
+
+- Focus Group
+
+Reunião de usuários para discussão bem definida
+
+### O que fazer com esses dados?
+
+- Desenvolver soluções para melhorar seus resultados
+- Encontrei mais de uma solução
+	- Teste comparativo em ambiente de produção (pessoas reais)
+		- Não se frustrar caso dê errado
+
+>[!HELP] Até onde testar?
+>Desde a cor de um botão até o layout inteiro é preciso testar caso necessário
+
+- Estabelecimento de metas
+	- [[Gestão de Qualidade#Indicadores de Desempenho|Indicadores]]
+
+
 
