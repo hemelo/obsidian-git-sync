@@ -535,4 +535,42 @@ Por exemplo: no WhatsApp há duas formas  de apagar uma conversa. Uma delas é d
 
 ## Dados Quantitativos vs Qualitativos
 
+### Análise de dados quantitativos
+
+- Identificação dos problemas
+
+Audiência, cliques, aquisição, comportamento, conversão
+
+- Orientação estratégica
+
+Através dos dados, você pode orientar estrategicamente a evolução do produto. 
+
+Por meio deles, você percebe a necessidade de um projeto ou feature, fica sabendo da jornada do seu usuário, identifica oportunidades, criando personas
+
+- Monitoramento
+	- Google Analytics
+	- Firebase
+
+Fazer acompanhamento de metas é essencial. Os dados entram aqui, como parte importante da análise ep para identificação de necessidades e resultados 
+
+>[!WARNING] Importante ressaltar que os números sozinhos não dizem nada
+
+### Análise de dados qualitativos
+
+Demandam tempo porque dependem de uma interação direta com usuário
+
+- Testes de usabilidade
+	- Devem ter como orientação um <font color="#0070c0">problema</font>
+	- Levantamento de <font color="#f79646">hipóteses</font>
+	- Realização de <font color="#c0504d">experimentos</font>
+	- <font color="#938953">Meta</font>
+
+Exemplo: <font color="#0070c0">Os usuários se frustram porque querem ver os preços dos serviços no site e essa informação não está disponível lá.</font> <font color="#f79646">Talvez os usuários não se freustrem se houver uma explicação sobre a complexidade de deixar o preço no site, já que o serviço oferecido é personalizado.</font> <font color="#c0504d">Colocar essa informação sobre a personalização na página, em lugar dos preços pode salvar.</font> <font color="#938953">E com isso, pretende-se aumentar o número de leads, fazendo com que mais pessoas enviem formulário com dados de contato ou entrem em contato com um representante de chat.</font>
+
+- Pesquisas
+	- de satisfação
+	- de intenção
+	- de feedback
+
+>[!SUCCESS] É uma boa maneira ter um canal de comunicação em aberto, utilizando sua base de emails para disparar as pesquisas
 
